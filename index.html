@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Elliot Ginger</title>
+
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    :root{
+      --bg:#0f0f0f;
+      --fg:#eaeaea;
+      --muted:#9a9a9a;
+
+      /* subtle accents (kept restrained) */
+      --a1: rgba(255,255,255,0.08);
+      --a2: rgba(255,255,255,0.04);
+      --a3: rgba(255,255,255,0.02);
+    }
+
+    *{ box-sizing:border-box; }
+
+    body{
+      margin:0;
+      min-height:100vh;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      text-align:center;
+      overflow:hidden;
+    }
+
+    /* Ambient glow layer */
+    .glow{
+      position:fixed;
+      inset:-30%;
+      background:
+        radial-gradient(600px 600px at 20% 30%, var(--a1), transparent 60%),
+        radial-gradient(700px 700px at 80% 70%, var(--a2), transparent 60%),
+        radial-gradient(500px 500px at 60% 20%, var(--a3), transparent 60%);
+      filter: blur(18px);
+      opacity:0.9;
+      animation: drift 16s ease-in-out infinite alternate;
+      pointer-events:none;
+      transform: translate3d(0,0,0);
+    }
+
+    @keyframes drift{
+      0%   { transform: translate(-1.5%, -1%) scale(1.02); }
+      100% { transform: translate(1.5%, 1%) scale(1.05); }
+    }
+
+    .container{
+      position:relative;
+      padding:2.25rem;
+      z-index:1;
+
+      /* initial state for entrance */
+      opacity:0;
+      transform: translateY(10px);
+      animation: enter 900ms cubic-bezier(.2,.9,.2,1) 120ms forwards;
+    }
+
+    @keyframes enter{
+      to { opacity:1; transform: translateY(0); }
+    }
+
+    h1{
+      font-weight:400;
+      letter-spacing:0.08em;
+      margin:0;
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    /* Divider draws in */
+    .divider{
+      width: 0;
+      height:1px;
+      background: var(--muted);
+      margin: 1.25rem auto;
+      opacity:0.6;
+      animation: draw 800ms ease 500ms forwards;
+    }
+
+    @keyframes draw{
+      to { width: 52px; }
+    }
+
+    .strapline{
+      font-size:0.95rem;
+      letter-spacing:0.18em;
+      text-transform:uppercase;
+      color: var(--muted);
+      margin-bottom:2.5rem;
+
+      opacity:0;
+      transform: translateY(6px);
+      animation: fadeUp 700ms ease 650ms forwards;
+    }
+
+    .status{
+      font-size:0.85rem;
+      color: var(--muted);
+      opacity:0;
+
+      animation: fadeIn 700ms ease 900ms forwards;
+    }
+
+    @keyframes fadeUp{
+      to { opacity:1; transform: translateY(0); }
+    }
+    @keyframes fadeIn{
+      to { opacity:0.7; }
+    }
+
+    /* Accessibility: respect reduced motion */
+    @media (prefers-reduced-motion: reduce){
+      .glow{ animation:none; }
+      .container, .divider, .strapline, .status{
+        animation:none !important;
+        opacity:1 !important;
+        transform:none !important;
+        width:52px;
+      }
+      .status{ opacity:0.7 !important; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <main class="container">
+    <h1>Elliot Ginger</h1>
+    <div class="divider"></div>
+    <div class="strapline">Systems &nbsp;•&nbsp; Data &nbsp;•&nbsp; Automation</div>
+    <div class="status">Site in progress</div>
+  </main>
+</body>
+</html>
