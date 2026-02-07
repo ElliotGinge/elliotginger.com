@@ -112,11 +112,12 @@ body{
 
 article img{
   display: block;
-  max-width: 720px;      /* controls visual weight */
+  max-width: 680px;
   width: 100%;
   margin: 1.5rem auto 0.5rem auto;
   border-radius: 6px;
   border: 1px solid rgba(255,255,255,0.08);
+  filter: brightness(0.92) contrast(0.95);
 }
 
 article + .muted,
