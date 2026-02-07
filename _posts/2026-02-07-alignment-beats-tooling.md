@@ -6,7 +6,7 @@ tags: [systems, governance, delivery]
 
 It’s tempting to start systems work with tools.
 
-New dashboards, new platforms, new automation — all visible, all tangible. But most of the problems I see aren’t caused by a lack of tooling. They come from a lack of alignment.
+New dashboards, new platforms, new automation - all visible, all tangible. But most of the problems I see aren’t caused by a lack of tooling. They come from a lack of alignment.
 
 When definitions vary between teams, reports lose credibility.  
 When ownership is unclear, automation becomes fragile.  
