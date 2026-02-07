@@ -6,7 +6,9 @@ permalink: /work/
 
 # Work
 
-I focus on practical systems improvement — aligning people, process, and data so organisations can make decisions with confidence and deliver change that sticks.
+I focus on systems improvement that holds up in practice — aligning people, process, and data so organisations can make better decisions and execute with confidence.
+
+The case studies below highlight different facets of that work: from creating shared clarity around reporting, to introducing automation in a way teams can trust.
 
 <div style="height:1.5rem"></div>
 
@@ -14,6 +16,10 @@ I focus on practical systems improvement — aligning people, process, and data 
 
 - **[Systems & Reporting Alignment](/work/systems-and-reporting-alignment/)**  
   Creating shared definitions, clear ownership, and trusted reporting across teams.
+
+- **[Automation with Control](/work/automation-with-control/)**  
+  Introducing automation that reduced effort while maintaining trust and governance.
+
 
 <div style="height:1.5rem"></div>
 
