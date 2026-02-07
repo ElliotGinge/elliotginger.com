@@ -34,18 +34,18 @@ Automation was introduced incrementally, with manual fallbacks retained until co
 
 ## The Outcome
 
-The changes delivered measurable and behavioural impact:
+Automation delivered sustained benefit without introducing fragility:
 
-- Significant reduction in manual effort for repeatable tasks
-- Fewer errors and less rework
-- Increased confidence in automated processes
-- Clear ownership and understanding of how automation behaved
+- Manual effort was reduced for repeatable operational tasks
+- Errors and rework decreased as processes became more predictable
+- Teams developed confidence in automated outcomes
+- Ownership and visibility made change easier to manage over time
 
-Most importantly, automation became something teams relied on — not something they worked around.
+Automation was no longer a risk to manage, but a capability teams could rely on.
 
 ## Key Takeaways
 
-- Automation without ownership creates risk
-- Visibility matters as much as speed
-- Incremental rollout builds trust
-- Good automation reduces cognitive load, not just effort
+- Automation needs explicit ownership
+- Visibility builds trust faster than speed
+- Guardrails enable adoption
+- Sustainable automation reduces cognitive load
