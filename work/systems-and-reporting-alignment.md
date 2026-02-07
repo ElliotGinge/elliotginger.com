@@ -8,7 +8,7 @@ permalink: /work/systems-and-reporting-alignment/
 
 In a growing operational business, reporting and systems had evolved organically over time. Data existed across multiple platforms, with different teams relying on their own extracts, spreadsheets, and definitions to run day-to-day operations.
 
-Leadership needed clearer, more consistent insight to support planning and decision-making — without slowing teams down.
+Leadership needed clearer, more consistent insight to support planning and decision-making; without slowing teams down.
 
 ## The Problem
 
