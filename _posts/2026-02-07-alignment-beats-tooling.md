@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Why Alignment Beats Tooling
+tags: [systems, governance, delivery]
 ---
 
 It’s tempting to start systems work with tools.
