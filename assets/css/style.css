@@ -195,6 +195,35 @@ body{
   opacity: 0.85;
 }
 
+.breadcrumb{
+  margin: 0 0 1.25rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.breadcrumb a{
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover{
+  color: var(--fg);
+}
+
+.crumb-sep{
+  opacity: 0.55;
+}
+
+.crumb-current{
+  color: var(--muted);
+  opacity: 0.9;
+}
 
 
 .nav a:hover{ color:var(--fg); }
