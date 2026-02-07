@@ -31,17 +31,26 @@
     <main class="site-main">
       <div class="wrap">
 
-  {% assign p = page.url | default: "" %}
-  {% if p contains '/work/' and p != '/work/' %}
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="/">Home</a>
-      <span class="crumb-sep">/</span>
-      <a href="/work/">Work</a>
-      <span class="crumb-sep">/</span>
-      <span class="crumb-current">{{ page.title }}</span>
-    </nav>
-  {% endif %}
+{% assign p = page.url | default: "" %}
 
+{% if p contains '/work/' and p != '/work/' %}
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="crumb-sep">/</span>
+    <a href="/work/">Work</a>
+    <span class="crumb-sep">/</span>
+    <span class="crumb-current">{{ page.title }}</span>
+  </nav>
+
+{% elsif page.layout == 'default' and page.date %}
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="crumb-sep">/</span>
+    <a href="/thinking/">Thinking</a>
+    <span class="crumb-sep">/</span>
+    <span class="crumb-current">{{ page.title }}</span>
+  </nav>
+{% endif %}
 
 
         {{ content }}
