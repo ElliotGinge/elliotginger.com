@@ -46,7 +46,7 @@ I approached it as a small product, with delivery constraints baked in.
 
 Features were introduced incrementally, with each change validated in real use rather than speculative design.
 
-<img src="/assets/images/ginger-arms/admin-control.png"
+<img src="/assets/images/ginger-arms/admin-view.png"
      alt="Admin controls for managing orders and bar availability"
      class="shot shot-admin">
 
