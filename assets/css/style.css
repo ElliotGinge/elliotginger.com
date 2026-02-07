@@ -124,6 +124,8 @@ article + .muted,
 article img + .muted{
   display: block;
   text-align: center;
+  opacity: 0.75;
+  font-style: italic;
   font-size: 0.75rem;
   margin-bottom: 1.5rem;
 }
