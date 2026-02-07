@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Systems & Reporting Alignment
+permalink: /work/systems-and-reporting-alignment/
 ---
 
 ## Context
