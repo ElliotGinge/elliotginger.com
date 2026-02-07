@@ -7,5 +7,4 @@ permalink: /contact/
 # Contact
 
 - Email: **elliot@elliotginger.com**
-- LinkedIn: **(add link)**
-- GitHub: **(add link)**
+- LinkedIn: **www.linkedin.com/in/elliotginger**
