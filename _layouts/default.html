@@ -30,7 +30,16 @@
 
     <main class="site-main">
       <div class="wrap">
+
+        {% assign p = page.url | default: "" %}
+        {% if p contains '/work/' and p != '/work/' %}
+          <div class="backlink">
+            <a href="/work/">← Back to Work</a>
+          </div>
+        {% endif %}
+
         {{ content }}
+
       </div>
     </main>
 
