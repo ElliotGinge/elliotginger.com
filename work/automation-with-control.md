@@ -8,7 +8,7 @@ permalink: /work/automation-with-control/
 
 As operational demand increased, teams relied heavily on manual processes to move data between systems, track work, and maintain oversight. While automation was an obvious opportunity, there were concerns around reliability, ownership, and unintended consequences.
 
-The challenge was to introduce automation that genuinely reduced effort — without creating new risk or fragility.
+The challenge was to introduce automation that genuinely reduced effort; without creating new risk or fragility.
 
 ## The Problem
 
@@ -27,7 +27,7 @@ Rather than automating everything, I focused on **controlled automation**:
 
 - Identifying high-friction, low-judgement tasks first
 - Designing automation with clear inputs, outputs, and failure states
-- Making ownership explicit — automation was treated as a system, not a shortcut
+- Making ownership explicit; automation was treated as a system, not a shortcut
 - Ensuring visibility and auditability so teams could trust the outcome
 
 Automation was introduced incrementally, with manual fallbacks retained until confidence was established.
