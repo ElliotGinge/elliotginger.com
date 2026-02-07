@@ -6,6 +6,6 @@ permalink: /contact/
 
 # Contact
 
-- Email: elliot@elliotginger.com**
+- Email: mailto:elliot@elliotginger.com
 - LinkedIn: **(add link)**
 - GitHub: **(add link)**
