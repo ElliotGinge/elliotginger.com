@@ -118,6 +118,7 @@ article img{
   border-radius: 6px;
   border: 1px solid rgba(255,255,255,0.08);
   filter: brightness(0.92) contrast(0.95);
+  margin-bottom: 0.75rem;
 }
 
 article + .muted,
@@ -127,7 +128,7 @@ article img + .muted{
   opacity: 0.75;
   font-style: italic;
   font-size: 0.75rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 
