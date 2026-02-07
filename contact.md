@@ -6,5 +6,12 @@ permalink: /contact/
 
 # Contact
 
-- Email: **elliot@elliotginger.com**
-- LinkedIn: **www.linkedin.com/in/elliotginger**
+<span class="muted">
+Open to conversations around systems improvement, analytics, and automation.
+</span>
+
+
+If you’d like to get in touch, the easiest ways are below.
+
+- **Email:** [elliot@elliotginger.com](mailto:elliot@elliotginger.com)
+- **LinkedIn:** [linkedin.com/in/elliotginger](https://www.linkedin.com/in/elliotginger)
