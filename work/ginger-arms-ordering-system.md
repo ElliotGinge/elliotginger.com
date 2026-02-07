@@ -13,7 +13,7 @@ The aim was to create something that felt like a real venue experience, without 
 ![Guest-facing ordering interface for The Ginger Arms](/assets/images/ginger-arms/ordering-interface.png)
 
 <span class="muted">
-Guest-facing ordering interface designed for clarity and speed.
+Guest-facing ordering interface — designed to reduce friction while hosting.
 </span>
 
 ## The Problem
