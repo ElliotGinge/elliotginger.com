@@ -46,7 +46,14 @@ I approached it as a small product, with delivery constraints baked in.
 
 Features were introduced incrementally, with each change validated in real use rather than speculative design.
 
-![Admin menu for The Ginger Arms](/assets/images/ginger-arms/admin-view.png)
+<img src="/assets/images/ginger-arms/admin-control.png"
+     alt="Admin controls for managing orders and bar availability"
+     class="shot shot-admin">
+
+<span class="muted">
+Admin controls for managing orders and bar availability during service.
+</span>
+
 
 <span class="muted">
 Admin interface for on-the-fly menu changes and order management
