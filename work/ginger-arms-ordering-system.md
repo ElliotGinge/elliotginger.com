@@ -10,6 +10,12 @@ I built a lightweight ordering system for my home bar project, The Ginger Arms â
 
 The aim was to create something that felt like a real venue experience, without introducing complexity or ongoing maintenance overhead.
 
+![Guest-facing ordering interface for The Ginger Arms](/assets/images/ginger-arms/ordering-interface.png)
+
+<span class="muted">
+Guest-facing ordering interface designed for clarity and speed.
+</span>
+
 ## The Problem
 
 As the space and menu evolved, the informal approach to ordering started to break down:
@@ -39,6 +45,13 @@ I approached it as a small product, with delivery constraints baked in.
 - The system was implemented as a small web application with a simple data store, designed for reliability over scale.
 
 Features were introduced incrementally, with each change validated in real use rather than speculative design.
+
+![Admin menu for The Ginger Arms](/assets/images/ginger-arms/admin-view.png)
+
+<span class="muted">
+Admin interface for on-the-fly menu changes and order management
+</span>
+
 
 ## The Outcome
 
