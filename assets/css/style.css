@@ -110,6 +110,92 @@ body{
   color: var(--fg);
 }
 
+/* Tag bar */
+.tagbar{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.5rem;
+}
+
+.tag{
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: var(--muted);
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.tag:hover{
+  color: var(--fg);
+  border-color: rgba(255,255,255,0.16);
+}
+
+.tag.active{
+  color: var(--fg);
+  background: rgba(255,255,255,0.10);
+  border-color: rgba(255,255,255,0.22);
+}
+
+/* Post list (if you already added these earlier, keep one copy) */
+.post-card{
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.post-card:first-of-type{
+  border-top: 0;
+  padding-top: 0;
+}
+
+.post-title{
+  margin: 0 0 0.25rem 0;
+  font-size: 1.25rem;
+  letter-spacing: 0.01em;
+}
+
+.post-title a{
+  text-decoration: none;
+}
+
+.post-title a:hover{
+  text-decoration: underline;
+}
+
+.post-meta{
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-excerpt{
+  margin: 0 0 0.75rem 0;
+  color: rgba(234,234,234,0.92);
+}
+
+.post-readmore{
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.post-readmore:hover{
+  color: var(--fg);
+}
+
+.dot{
+  margin: 0 0.35rem;
+  opacity: 0.5;
+}
+
+.post-tag{
+  opacity: 0.85;
+}
+
+
 
 .nav a:hover{ color:var(--fg); }
 
