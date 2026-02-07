@@ -34,18 +34,19 @@ Stakeholders were involved early, with changes delivered incrementally to avoid 
 
 ## The Outcome
 
-The improvements delivered practical, lasting impact:
+The changes created a more dependable foundation for decision-making:
 
-- Reporting became consistent and trusted across teams
-- Manual effort and reconciliation time were significantly reduced
-- Decision-makers had clearer, timelier insight
-- Teams spent less time firefighting and more time improving processes
+- Leadership had a consistent view of performance across teams
+- Time spent reconciling numbers and questioning reports was reduced
+- Reporting became easier to maintain and evolve as needs changed
+- Teams were able to focus on improvement rather than explanation
 
-Crucially, the approach scaled as the organisation continued to evolve.
+Trust in reporting improved not because it was more complex, but because it was clearer and better owned.
+
 
 ## Key Takeaways
 
-- Alignment matters more than tooling
-- Clear ownership is essential for trustworthy data
-- Incremental delivery builds confidence and adoption
-- Systems should reflect how decisions are made, not just how data is stored
+- Shared definitions enable faster decisions
+- Ownership is as important as accuracy
+- Simplicity scales better than complexity
+- Reporting should reflect how the business actually operates
