@@ -15,11 +15,10 @@ The case studies below highlight different facets of that work: from creating sh
 ## Case studies
 
 - **[Systems & Reporting Alignment](/work/systems-and-reporting-alignment/)**  
-  Creating shared definitions, clear ownership, and trusted reporting across teams.
+  Establishing shared definitions and ownership to create trusted, decision-ready reporting.
 
 - **[Automation with Control](/work/automation-with-control/)**  
-  Introducing automation that reduced effort while maintaining trust and governance.
-
+  Reducing manual effort through automation while maintaining visibility, ownership, and trust.
 
 <div style="height:1.5rem"></div>
 
