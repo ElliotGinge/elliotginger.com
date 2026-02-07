@@ -8,6 +8,11 @@ permalink: /thinking/
 
 Short notes on systems, analytics, automation, governance, and change that sticks.
 
+<span class="muted">
+Filter by theme to explore specific topics, or browse everything.
+</span>
+
+
 <div style="height:1.25rem"></div>
 
 {% assign all_tags = site.tags | sort %}
@@ -28,7 +33,8 @@ Short notes on systems, analytics, automation, governance, and change that stick
 {% else %}
 
 <div id="posts">
-{% for post in site.posts %}
+{% assign sorted_posts = site.posts | sort: "date" | reverse %}
+{% for post in sorted_posts %}
   {% assign post_tags = post.tags | join: "," %}
   <article class="post-card" data-tags="{{ post_tags | escape }}">
     <h2 class="post-title">
