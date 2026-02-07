@@ -20,6 +20,10 @@ The case studies below highlight different facets of that work: from creating sh
 - **[Automation with Control](/work/automation-with-control/)**  
   Reducing manual effort through automation while maintaining visibility, ownership, and trust.
 
+- **[The Ginger Arms Ordering System](/work/ginger-arms-ordering-system/)**  
+  A small, personal build exploring how simple systems can remove friction in everyday situations.
+
+
 <div style="height:1.5rem"></div>
 
 <span class="muted">
