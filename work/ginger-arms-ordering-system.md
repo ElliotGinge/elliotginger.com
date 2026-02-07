@@ -54,12 +54,6 @@ Features were introduced incrementally, with each change validated in real use r
 Admin controls for managing orders and bar availability during service.
 </span>
 
-
-<span class="muted">
-Admin interface for on-the-fly menu changes and order management
-</span>
-
-
 ## The Outcome
 
 The system delivered practical benefits on both sides of the experience:
