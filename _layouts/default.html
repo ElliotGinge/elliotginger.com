@@ -58,10 +58,21 @@
       </div>
     </main>
 
-    <footer class="site-footer">
-      <div class="wrap">
-        <span class="muted">© {{ "now" | date: "%Y" }} {{ site.title }}</span>
-      </div>
-    </footer>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span class="muted">© {{ "now" | date: "%Y" }} {{ site.title }}</span>
+
+    <div class="footer-links">
+      <a href="mailto:elliot@elliotginger.com" aria-label="Email">
+        {% include icons/email.svg %}
+      </a>
+
+      <a href="https://www.linkedin.com/in/elliotginger/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        {% include icons/linkedin.svg %}
+      </a>
+    </div>
+  </div>
+</footer>
+
   </body>
 </html>
