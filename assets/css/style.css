@@ -56,6 +56,27 @@ body{
   font-weight:400;
 }
 
+.footer-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links{
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links a{
+  color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-links a:hover{
+  color: var(--fg);
+}
+
 .nav a{
   color:var(--muted);
   text-decoration:none;
