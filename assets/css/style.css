@@ -71,10 +71,15 @@ body{
   color: var(--muted);
   display: inline-flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .footer-links a:hover{
   color: var(--fg);
+}
+
+.footer-links svg{
+  display: block;
 }
 
 .nav a{
