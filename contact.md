@@ -10,8 +10,6 @@ permalink: /contact/
 Open to conversations around systems improvement, analytics, and automation.
 </span>
 
+The quickest way to reach me is via the links in the footer.
 
-If you’d like to get in touch, the easiest ways are below.
-
-- **Email:** [elliot@elliotginger.com](mailto:elliot@elliotginger.com)
-- **LinkedIn:** [linkedin.com/in/elliotginger](https://www.linkedin.com/in/elliotginger)
+If you prefer email, you can use: **[elliot@elliotginger.com](mailto:elliot@elliotginger.com)**.
