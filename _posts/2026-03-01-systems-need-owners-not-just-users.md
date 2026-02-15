@@ -6,7 +6,7 @@ tags: [systems, governance, delivery]
 
 Many organisational systems have plenty of users.
 
-What they often lack is ownership.
+What they often lack is **ownership**.
 
 When something goes wrong, people know *how* to use the system — but not who is responsible for its behaviour, its outputs, or its evolution.
 
