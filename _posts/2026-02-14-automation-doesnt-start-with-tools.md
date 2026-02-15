@@ -39,10 +39,10 @@ This is how organisations end up with brittle workflows that no one fully unders
 
 The most effective automation I’ve seen follows a quieter order:
 
-1. Make the process visible  
-2. Decide what *should* be consistent  
-3. Agree what still needs judgement  
-4. Automate only what’s genuinely stable  
+1. Make the process visible
+2. Decide what *should* be consistent
+3. Agree what still needs judgement
+4. Automate only what’s genuinely stable
 
 At that point, tooling becomes an implementation detail — not the strategy.
 
