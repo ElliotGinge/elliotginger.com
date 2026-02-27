@@ -10,13 +10,13 @@ permalink: /work/ginger-arms-ordering-system/
 
 The Ginger Arms is a small home bar project.
 
-As the space evolved, I built a lightweight ordering system — not as a technical exercise, but to improve flow, reduce friction while hosting, and create a more intentional guest experience.
+As the space evolved, I built a lightweight ordering system; not as a technical exercise, but to improve flow, reduce friction while hosting, and create a more intentional guest experience.
 
 The goal wasn’t scale.
 
 It was clarity.
 
-The system needed to feel like a real venue experience — without introducing complexity or ongoing maintenance overhead.
+The system needed to feel like a real venue experience, without introducing complexity or ongoing maintenance overhead.
 
 ![Guest-facing ordering interface for The Ginger Arms](/assets/images/ginger-arms/ordering-interface.png)
 
@@ -48,7 +48,7 @@ I treated it as a small product with real operational constraints.
 - Designed a simple, linear journey: browse → customise → confirm  
 - Ensured first-time users required no explanation  
 - Prioritised speed and clarity over feature depth  
-- Designed the experience to support hosting — not replace it  
+- Designed the experience to support hosting, not replace it  
 
 ### Engineering & Delivery
 
