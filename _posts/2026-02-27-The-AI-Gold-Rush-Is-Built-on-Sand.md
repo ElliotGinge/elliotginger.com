@@ -10,6 +10,8 @@ excerpt: "Organisations are rushing to adopt AI, but without strong data integri
 permalink: /thinking/ai-gold-rush-built-on-sand/
 ---
 
+## The AI Gold Rush Is Built on Sand
+
 There is a growing urgency in boardrooms across the world:
 
 > “What’s our AI strategy?”  
