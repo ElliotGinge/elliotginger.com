@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Why Alignment Beats Tooling
+date: 2026-02-07
+categories: [Thinking]
 tags: [systems, governance, delivery]
 excerpt: "Operational problems rarely stem from a lack of tools. They stem from a lack of alignment. Without shared definitions and clear ownership, even the best platforms struggle to deliver value."
+permalink: /thinking/alignment-beats-tooling/
 ---
 
 ## The Instinct to Start With Tools
