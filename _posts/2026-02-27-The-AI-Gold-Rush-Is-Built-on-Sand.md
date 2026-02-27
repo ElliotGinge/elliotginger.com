@@ -6,7 +6,7 @@ date: 2026-02-27
 author: Elliot Ginger
 categories: [Thinking]
 tags: [AI, Data Integrity, Data Governance, Systems Architecture, Strategy]
-excerpt: "Organisations are rushing to adopt AI, but without strong data integrity foundations, AI doesn’t fix operational weaknesses — it amplifies them."
+excerpt: "Organisations are rushing to adopt AI, but without strong data integrity foundations, AI doesn’t fix operational weaknesses; it amplifies them."
 permalink: /thinking/ai-gold-rush-built-on-sand/
 ---
 
@@ -62,7 +62,7 @@ Then AI does not correct those problems.
 
 It learns from them.
 
-And once a model is trained, the output often looks authoritative — even when it’s wrong.
+And once a model is trained, the output often looks authoritative, even when it’s wrong.
 
 The danger isn’t that AI will fail loudly.
 
@@ -96,7 +96,7 @@ That’s acceleration toward entropy.
 
 ## The Illusion of Speed
 
-Executives often view data cleansing as slow, unglamorous work. AI feels innovative. Data integrity feels administrative.
+Executives often view data cleansing as slow, unglamorous work. AI feels innovative and sexy. Data integrity feels administrative and frumpy.
 
 So the temptation is:
 
@@ -156,7 +156,7 @@ AI models trained on mutable, untracked data inherit silent distortion.
 
 ### 4. Reconciliation Discipline
 
-Systems that interact (CRM, ERP, billing, service, finance) must reconcile on defined keys and intervals.
+Systems that interact must reconcile on defined keys and intervals.
 
 AI layered across disconnected silos produces misleading cross-domain inferences.
 
@@ -216,14 +216,8 @@ There is nothing wrong with urgency.
 
 But urgency without foundations is fragility disguised as progress.
 
-Before deploying models, before licensing platforms, before announcing strategy decks —
+Before deploying models, before licensing platforms, before announcing strategy decks
 
 **Fix the plumbing.**
 
 Because in the end, the most sophisticated AI in the world cannot compensate for a system that does not know what is true.
-
----
-
-### About the Author
-
-Elliot Ginger is a Business Systems Analyst focused on data architecture, operational integrity, and pragmatic technology strategy. He writes about systems thinking, governance, and the realities behind digital transformation.
