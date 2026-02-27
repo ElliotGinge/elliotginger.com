@@ -2,8 +2,6 @@ title: Elliot Ginger
 description: Systems • Data • Automation
 url: https://elliotginger.com
 
-theme: minima
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -15,3 +13,6 @@ header_pages:
   - thinking.md
   - about.md
   - contact.md
+
+feed:
+  path: feed.xml
