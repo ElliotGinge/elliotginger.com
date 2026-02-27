@@ -19,17 +19,24 @@ Technology doesn’t create clarity. Structure does.
 {% assign all_tags_csv = "" %}
 {% for post in thinking_posts %}
   {% if post.tags %}
-    {% assign all_tags_csv = all_tags_csv | append: post.tags | join: "," | append: "," %}
+    {% for t in post.tags %}
+      {% assign clean = t | strip %}
+      {% if clean != "" %}
+        {% assign all_tags_csv = all_tags_csv | append: clean | append: "," %}
+      {% endif %}
+    {% endfor %}
   {% endif %}
 {% endfor %}
+
 {% assign all_tags = all_tags_csv | split: "," | uniq | sort %}
-{% assign all_tags = all_tags | where_exp: "t", "t != ''" %}
 
 {% if all_tags.size > 0 %}
 <div class="tagbar" id="tagbar" aria-label="Filter posts by tag">
   <button class="tag active" data-tag="all" type="button">All</button>
   {% for tag_name in all_tags %}
-    <button class="tag" data-tag="{{ tag_name | escape }}" type="button">{{ tag_name }}</button>
+    {% if tag_name != "" %}
+      <button class="tag" data-tag="{{ tag_name | downcase | escape }}" type="button">{{ tag_name }}</button>
+    {% endif %}
   {% endfor %}
 </div>
 {% endif %}
@@ -42,7 +49,7 @@ Technology doesn’t create clarity. Structure does.
 
 <div id="posts">
 {% for post in thinking_posts %}
-  {% assign post_tags = post.tags | join: "," %}
+  {% assign post_tags = post.tags | join: "," | downcase %}
   <article class="post-card" data-tags="{{ post_tags | escape }}">
     <h2 class="post-title">
       <a href="{{ post.url }}">{{ post.title }}</a>
@@ -96,10 +103,10 @@ Technology doesn’t create clarity. Structure does.
       posts.forEach(p => {
         const tags = (p.getAttribute('data-tags') || '')
           .split(',')
-          .map(s => s.trim())
+          .map(s => s.trim().toLowerCase())
           .filter(Boolean);
 
-        const ok = (tag === 'all') || tags.includes(tag);
+        const ok = (tag === 'all') || tags.includes(tag.toLowerCase());
         p.style.display = ok ? '' : 'none';
         if (ok) shown++;
       });
