@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Automation with Control
+<span class="muted" style="letter-spacing:.18em;text-transform:uppercase;">
+Case Study
+</span>
+
+<div style="height:1.25rem"></div>
 permalink: /work/automation-with-control/
 ---
 
