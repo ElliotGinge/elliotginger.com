@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Automation Doesn’t Start With Tools
+date: 2026-02-14
+categories: [Thinking]
 tags: [automation, systems, delivery]
-excerpt: "Automation fails when it begins with procurement instead of process clarity. Before software, there must be visibility, ownership, and agreement on what should — and shouldn’t — be automated."
+excerpt: "Automation fails when it begins with procurement instead of process clarity. Before software, there must be visibility, ownership, and agreement on what should - and shouldn’t - be automated."
+permalink: /thinking/automation-doesnt-start-with-tools/
 ---
 
 Automation is often treated as a tooling problem.
