@@ -66,6 +66,19 @@ h1,h2,h3{
   padding: 1.25rem;
 }
 
+hr{
+  border: 0;
+  height: 1px;
+  margin: 2.75rem 0;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255,255,255,0.05),
+    transparent
+  );
+  opacity: 0.6;
+}
+
 .site-header,
 .site-footer{
   position:relative;
