@@ -5,7 +5,7 @@ subtitle: "Why your AI strategy will fail without data integrity"
 date: 2026-02-27
 author: Elliot Ginger
 categories: [Thinking]
-tags: [AI, Data Integrity, Data Governance, Systems Architecture, Strategy]
+tags: [ai, data integrity, data governance, systems architecture, strategy]
 excerpt: "Organisations are rushing to adopt AI, but without strong data integrity foundations, AI doesn’t fix operational weaknesses; it amplifies them."
 permalink: /thinking/ai-gold-rush-built-on-sand/
 ---
