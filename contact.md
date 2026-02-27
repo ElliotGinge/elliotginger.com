@@ -6,10 +6,23 @@ permalink: /contact/
 
 # Contact
 
-<span class="muted">
-Open to conversations around systems improvement, analytics, and automation.
-</span>
+## Let’s Talk
 
-The quickest way to reach me is via the links in the footer.
+I’m open to conversations around:
 
-If you prefer email, you can use: **[elliot@elliotginger.com](mailto:elliot@elliotginger.com)**.
+- Systems and reporting alignment  
+- Automation introduced with control  
+- Data governance and ownership  
+- Designing clarity into operational environments  
+
+If you're working on something where clarity, reliability, and trust matter I’m always happy to exchange ideas.
+
+---
+
+## Get in Touch
+
+The simplest way to reach me is by email:
+
+**[elliot@elliotginger.com](mailto:elliot@elliotginger.com)**
+
+You can also connect via LinkedIn using the link in the footer.
