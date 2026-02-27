@@ -6,6 +6,12 @@ permalink: /work/systems-and-reporting-alignment/
 
 # Systems & Reporting Alignment
 
+<span class="muted" style="letter-spacing:.18em;text-transform:uppercase;">
+Case Study
+</span>
+
+<div style="height:1.25rem"></div>
+
 ## Context
 
 A growing operational business had accumulated reporting and system processes organically over time.
