@@ -6,6 +6,12 @@ permalink: /work/ginger-arms-ordering-system/
 
 # The Ginger Arms Ordering System
 
+<span class="muted" style="letter-spacing:.18em;text-transform:uppercase;">
+Case Study
+</span>
+
+<div style="height:1.25rem"></div>
+
 ## Context
 
 The Ginger Arms is a small home bar project.
