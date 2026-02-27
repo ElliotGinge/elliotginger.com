@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Clarity Is a Design Choice
+date: 2026-04-13
+categories: [Thinking]
 tags: [systems, design, governance]
-excerpt: "Confusion is rarely accidental. It’s often the result of deferred decisions, vague ownership, and flexible definitions. Clarity doesn’t emerge by chance — it is deliberately designed."
+excerpt: "Confusion is rarely accidental. It’s often the result of deferred decisions, vague ownership, and flexible definitions. Clarity doesn’t emerge by chance; it is deliberately designed."
+permalink: /thinking/clarity-is-a-design-choice/
 ---
 
 Clarity rarely happens by accident.
