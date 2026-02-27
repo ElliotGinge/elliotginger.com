@@ -45,9 +45,6 @@ If you’re new here, the best entry points are usually the Thinking posts.
 
 ---
 
-## Start Here
-
-<div style="height:2rem"></div>
 
 ## Latest Thinking
 
