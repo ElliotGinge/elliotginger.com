@@ -9,9 +9,8 @@ permalink: /thinking/
 Short notes on systems, analytics, automation, governance, and change that sticks.
 
 <span class="muted">
-Filter by theme to explore specific topics, or browse everything.
+Technology doesn’t create clarity. Structure does.
 </span>
-
 
 <div style="height:1.25rem"></div>
 
@@ -28,13 +27,13 @@ Filter by theme to explore specific topics, or browse everything.
 
 <div style="height:1.5rem"></div>
 
-{% if site.posts.size == 0 %}
+{% assign thinking_posts = site.categories.Thinking | sort: "date" | reverse %}
+{% if thinking_posts.size == 0 %}
 <span class="muted">No posts yet.</span>
 {% else %}
 
 <div id="posts">
-{% assign sorted_posts = site.posts | sort: "date" | reverse %}
-{% for post in sorted_posts %}
+{% for post in thinking_posts %}
   {% assign post_tags = post.tags | join: "," %}
   <article class="post-card" data-tags="{{ post_tags | escape }}">
     <h2 class="post-title">
@@ -55,7 +54,7 @@ Filter by theme to explore specific topics, or browse everything.
 
     {% if post.excerpt %}
       <p class="post-excerpt">
-        {{ post.excerpt | strip_html | truncate: 220 }}
+        {{ post.excerpt | strip_html }}
       </p>
     {% endif %}
 
@@ -108,7 +107,6 @@ Filter by theme to explore specific topics, or browse everything.
       setActive(btn);
       filter(tag);
 
-      // optional: update URL hash for shareability
       if (tag === 'all') {
         history.replaceState(null, '', window.location.pathname);
       } else {
@@ -116,7 +114,6 @@ Filter by theme to explore specific topics, or browse everything.
       }
     });
 
-    // load from hash if present
     const initial = decodeURIComponent((window.location.hash || '').replace('#', '')) || 'all';
     const initialBtn = buttons.find(b => b.getAttribute('data-tag') === initial) || buttons[0];
     setActive(initialBtn);
