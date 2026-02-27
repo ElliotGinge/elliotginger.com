@@ -14,12 +14,21 @@ Technology doesn’t create clarity. Structure does.
 
 <div style="height:1.25rem"></div>
 
-{% assign all_tags = site.tags | sort %}
+{% assign thinking_posts = site.categories.Thinking | sort: "date" | reverse %}
+
+{% assign all_tags_csv = "" %}
+{% for post in thinking_posts %}
+  {% if post.tags %}
+    {% assign all_tags_csv = all_tags_csv | append: post.tags | join: "," | append: "," %}
+  {% endif %}
+{% endfor %}
+{% assign all_tags = all_tags_csv | split: "," | uniq | sort %}
+{% assign all_tags = all_tags | where_exp: "t", "t != ''" %}
+
 {% if all_tags.size > 0 %}
 <div class="tagbar" id="tagbar" aria-label="Filter posts by tag">
   <button class="tag active" data-tag="all" type="button">All</button>
-  {% for tag in all_tags %}
-    {% assign tag_name = tag[0] %}
+  {% for tag_name in all_tags %}
     <button class="tag" data-tag="{{ tag_name | escape }}" type="button">{{ tag_name }}</button>
   {% endfor %}
 </div>
@@ -27,7 +36,6 @@ Technology doesn’t create clarity. Structure does.
 
 <div style="height:1.5rem"></div>
 
-{% assign thinking_posts = site.categories.Thinking | sort: "date" | reverse %}
 {% if thinking_posts.size == 0 %}
 <span class="muted">No posts yet.</span>
 {% else %}
