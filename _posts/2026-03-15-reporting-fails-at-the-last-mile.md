@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Why Most Reporting Fails at the Last Mile
+date: 2026-03-15
+categories: [Thinking]
 tags: [data, reporting, systems]
 excerpt: "Reporting rarely fails because the data is wrong. It fails when insight doesn’t translate into decisions. The last mile, from dashboard to action, is where most reporting quietly breaks down."
+permalink: /thinking/why-most-reporting-fails-at-the-last-mile/
 ---
 
 Most reporting problems don’t begin with data quality.
