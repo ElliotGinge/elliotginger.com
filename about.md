@@ -51,27 +51,27 @@ If you’re new here, the best entry points are usually the Thinking posts.
 {% assign latest_thinking = site.categories.Thinking | sort: "date" | reverse | slice: 0,3 %}
 
 {% if latest_thinking.size > 0 %}
-  {% for post in latest_thinking %}
-    <article class="post-card">
-      <h3 class="post-title">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h3>
+{% for post in latest_thinking %}
+<article class="post-card">
+<h3 class="post-title">
+<a href="{{ post.url }}">{{ post.title }}</a>
+</h3>
+  
+<div class="post-meta muted">
+{{ post.date | date: "%-d %b %Y" }}
+</div>
 
-      <div class="post-meta muted">
-        {{ post.date | date: "%-d %b %Y" }}
-      </div>
+{% if post.excerpt %}
+<p class="post-excerpt">
+{{ post.excerpt | strip_html }}
+</p>
+{% endif %}
 
-      {% if post.excerpt %}
-        <p class="post-excerpt">
-          {{ post.excerpt | strip_html }}
-        </p>
-      {% endif %}
+<a class="post-readmore muted" href="{{ post.url }}">Read →</a>
+</article>
 
-      <a class="post-readmore muted" href="{{ post.url }}">Read →</a>
-    </article>
-
-    {% unless forloop.last %}
-      <div style="height:1.75rem"></div>
-    {% endunless %}
-  {% endfor %}
+{% unless forloop.last %}
+<div style="height:1.75rem"></div>
+{% endunless %}
+{% endfor %}
 {% endif %}
