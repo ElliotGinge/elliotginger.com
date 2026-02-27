@@ -132,6 +132,42 @@ hr{
   padding: 2.5rem 0 3rem;
 }
 
+.site-main article{
+  max-width: 760px;
+}
+
+/* Improve long-form readability */
+article p{
+  margin: 1rem 0 1.15rem 0;
+}
+
+article h2{
+  margin-top: 3rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.03em;
+}
+
+article h3{
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+blockquote{
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(255,255,255,0.08);
+  color: rgba(234,234,234,0.85);
+  font-style: italic;
+}
+
+article ul{
+  margin: 1rem 0 1.25rem 1.25rem;
+}
+
+article li{
+  margin: 0.35rem 0;
+}
+
 /* Footer */
 .footer-inner{
   display:flex;
