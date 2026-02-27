@@ -6,26 +6,68 @@ permalink: /work/
 
 # Work
 
-I focus on systems improvement that holds up in practice — aligning people, process, and data so organisations can make better decisions and execute with confidence.
+I design systems that hold up in practice; aligning people, process, and data so organisations can make better decisions and execute with confidence.
 
-The case studies below highlight different facets of that work: from creating shared clarity around reporting, to introducing automation in a way teams can trust.
+---
 
-<div style="height:1.5rem"></div>
+## What This Work Focuses On
 
-## Case studies
+Most systems don’t fail because of technology.
 
-- **[Systems & Reporting Alignment](/work/systems-and-reporting-alignment/)**  
-  Establishing shared definitions and ownership to create trusted, decision-ready reporting.
+They fail because alignment, ownership, or clarity break down under pressure.
 
-- **[Automation with Control](/work/automation-with-control/)**  
-  Reducing manual effort through automation while maintaining visibility, ownership, and trust.
+The case studies below explore how those issues were addressed in practice, through clearer definitions, better reporting design, and automation introduced with control rather than disruption.
 
-- **[The Ginger Arms Ordering System](/work/ginger-arms-ordering-system/)**  
-  A small, personal build exploring how simple systems can remove friction in everyday situations.
+---
 
+## Case Studies
 
-<div style="height:1.5rem"></div>
+<div class="posts-preview">
+
+  <article class="post-card">
+    <h3 class="post-title">
+      <a href="/work/systems-and-reporting-alignment/">Systems & Reporting Alignment</a>
+    </h3>
+
+    <p class="post-excerpt">
+      Establishing shared definitions and ownership to create trusted, decision-ready reporting.
+    </p>
+
+    <a class="post-readmore muted" href="/work/systems-and-reporting-alignment/">View case study →</a>
+  </article>
+
+  <div style="height:1.75rem"></div>
+
+  <article class="post-card">
+    <h3 class="post-title">
+      <a href="/work/automation-with-control/">Automation with Control</a>
+    </h3>
+
+    <p class="post-excerpt">
+      Reducing manual effort through automation while maintaining visibility, ownership, and trust.
+    </p>
+
+    <a class="post-readmore muted" href="/work/automation-with-control/">View case study →</a>
+  </article>
+
+  <div style="height:1.75rem"></div>
+
+  <article class="post-card">
+    <h3 class="post-title">
+      <a href="/work/ginger-arms-ordering-system/">The Ginger Arms Ordering System</a>
+    </h3>
+
+    <p class="post-excerpt">
+      A small, personal build exploring how simple systems can remove friction in everyday situations.
+    </p>
+
+    <a class="post-readmore muted" href="/work/ginger-arms-ordering-system/">View case study →</a>
+  </article>
+
+</div>
+
+---
 
 <span class="muted">
-More case studies are being added.
+New case studies are added as projects reach a stage worth sharing.
 </span>
