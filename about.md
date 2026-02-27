@@ -74,7 +74,4 @@ If you’re new here, the best entry points are usually the Thinking posts.
       <div style="height:1.75rem"></div>
     {% endunless %}
   {% endfor %}
-
-  <div style="height:1rem"></div>
-  <a class="muted" href="/thinking/">View all Thinking posts →</a>
 {% endif %}
