@@ -66,6 +66,9 @@
 
 
         {{ content }}
+        {% if page.categories contains 'Thinking' %}
+  {% include related_thinking.html %}
+{% endif %}
 
       </div>
     </main>
