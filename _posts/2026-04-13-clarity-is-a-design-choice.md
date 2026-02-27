@@ -2,47 +2,71 @@
 layout: default
 title: Clarity Is a Design Choice
 tags: [systems, design, governance]
+excerpt: "Confusion is rarely accidental. It’s often the result of deferred decisions, vague ownership, and flexible definitions. Clarity doesn’t emerge by chance — it is deliberately designed."
 ---
 
 Clarity rarely happens by accident.
 
-In systems, reporting, and processes, clarity is usually the result of deliberate choices — and just as often, deliberate omissions.
+In systems, reporting, and processes, it is usually the result of deliberate decisions; and deliberate omissions.
 
-## The cost of avoiding decisions
+Left undesigned, ambiguity fills the gaps.
+
+---
+
+## The Cost of Avoiding Decisions
 
 Lack of clarity often comes from avoiding trade-offs:
-- leaving definitions flexible “for now”
-- allowing multiple versions of the truth
-- deferring ownership to keep everyone comfortable
 
-These choices feel safe in the moment. Over time, they create confusion.
+- Leaving definitions flexible “for now”  
+- Allowing multiple versions of the truth  
+- Deferring ownership to keep everyone comfortable  
 
-## Designing for understanding
+These choices feel safe in the moment.
+
+Over time, they create confusion.
+
+---
+
+## Designing for Understanding
 
 Clarity improves when someone decides:
-- what matters most
-- what can be ignored
-- what needs to be consistent
-- who is responsible for explaining it
 
-That requires judgement, not consensus.
+- What matters most  
+- What can be ignored  
+- What must remain consistent  
+- Who is responsible for explaining it  
 
-## Why clarity feels uncomfortable
+That requires judgement.
+
+Not consensus.
+
+---
+
+## Why Clarity Feels Uncomfortable
 
 Clear systems expose:
-- gaps in understanding
-- conflicting priorities
-- unclear ownership
 
-This is why clarity is sometimes resisted. It removes plausible deniability.
+- Gaps in understanding  
+- Conflicting priorities  
+- Unclear ownership  
 
-## The long-term payoff
+This is why clarity is sometimes resisted.
 
-When clarity is designed in early:
-- decisions get faster
-- trust improves
-- systems become easier to change
-- governance feels lighter, not heavier
+It removes plausible deniability.
 
-Clarity isn’t about simplification for its own sake.  
-It’s about making complexity navigable.
+---
+
+## The Long-Term Payoff
+
+When clarity is designed early:
+
+- Decisions move faster  
+- Trust strengthens  
+- Systems become easier to change  
+- Governance feels lighter, not heavier  
+
+Clarity isn’t simplification for its own sake.
+
+It’s disciplined design.
+
+It makes complexity navigable.
