@@ -9,6 +9,7 @@
 
 *{ box-sizing:border-box; }
 html,body{ height:100%; }
+
 body{
   margin:0;
   background:var(--bg);
@@ -18,8 +19,28 @@ body{
   overflow-x:hidden;
 }
 
+a{ color:var(--fg); }
+
+a:focus-visible,
+button:focus-visible{
+  outline: 2px solid rgba(255,255,255,0.28);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+h1,h2,h3{
+  font-weight:400;
+  letter-spacing:0.02em;
+}
+
+.muted{
+  color:var(--muted);
+  opacity:0.8;
+}
+
 .glow{
-  position:fixed; inset:-30%;
+  position:fixed;
+  inset:-30%;
   background:
     radial-gradient(600px 600px at 20% 30%, var(--a1), transparent 60%),
     radial-gradient(700px 700px at 80% 70%, var(--a2), transparent 60%),
@@ -35,9 +56,18 @@ body{
   100%{ transform: translate(1.5%, 1%) scale(1.05); }
 }
 
-.wrap{ max-width: 920px; margin: 0 auto; padding: 1.25rem; }
+@media (prefers-reduced-motion: reduce){
+  .glow{ animation:none; }
+}
 
-.site-header, .site-footer{
+.wrap{
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+.site-header,
+.site-footer{
   position:relative;
   z-index:1;
 }
@@ -56,22 +86,48 @@ body{
   font-weight:400;
 }
 
+/* Nav */
+.nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem;
+  justify-content:flex-end;
+}
+
+.nav a{
+  color:var(--muted);
+  text-decoration:none;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  font-size:0.8rem;
+  margin-left:0;
+}
+
+.nav a:hover{ color:var(--fg); }
+
+.site-main{
+  position:relative;
+  z-index:1;
+  padding: 2.5rem 0 3rem;
+}
+
+/* Footer */
 .footer-inner{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
 }
 
 .footer-links{
-  display: flex;
-  gap: 1rem;
+  display:flex;
+  gap:1rem;
 }
 
 .footer-links a{
   color: var(--muted);
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
+  display:inline-flex;
+  align-items:center;
+  text-decoration:none;
 }
 
 .footer-links a:hover{
@@ -79,115 +135,53 @@ body{
 }
 
 .footer-links svg{
-  display: block;
+  display:block;
 }
 
-.nav a{
-  color:var(--muted);
-  text-decoration:none;
-  margin-left:1rem;
-  letter-spacing:0.12em;
-  text-transform:uppercase;
-  font-size:0.8rem;
+/* Skip link */
+.skip-link{
+  position:absolute;
+  left:-999px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }
 
-.post-card{
-  padding: 1.25rem 0;
-  border-top: 1px solid rgba(255,255,255,0.08);
+.skip-link:focus{
+  left:1rem;
+  top:1rem;
+  width:auto;
+  height:auto;
+  padding:.5rem .75rem;
+  z-index:9999;
 }
 
-.post-card:first-of-type{
-  border-top: 0;
-  padding-top: 0;
-}
-
-.post-title{
-  margin: 0 0 0.25rem 0;
-  font-size: 1.25rem;
-  letter-spacing: 0.01em;
-}
-
-.post-title a{
-  text-decoration: none;
-}
-
-.post-title a:hover{
-  text-decoration: underline;
-}
-
-.post-meta{
-  font-size: 0.85rem;
-  margin-bottom: 0.75rem;
-}
-
-.post-excerpt{
-  margin: 0 0 0.75rem 0;
-  color: rgba(234,234,234,0.92);
-}
-
-.post-readmore{
-  text-decoration: none;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-}
-
-.post-readmore:hover{
-  color: var(--fg);
-}
-
-.skip-link {
-  position: absolute;
-  left: -999px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-.skip-link:focus {
-  left: 1rem;
-  top: 1rem;
-  width: auto;
-  height: auto;
-  padding: .5rem .75rem;
-  z-index: 9999;
-}
-
+/* Images in articles */
 article img{
-  display: block;
-  max-width: 680px;
-  width: 100%;
-  margin: 1.5rem auto 0.5rem auto;
-  border-radius: 6px;
-  border: 1px solid rgba(255,255,255,0.08);
-  filter: brightness(0.92) contrast(0.95);
-  margin-bottom: 0.75rem;
-}
-
-article + .muted,
-article img + .muted{
-  display: block;
-  text-align: center;
-  opacity: 0.75;
-  font-style: italic;
-  font-size: 0.75rem;
-  margin-bottom: 2rem;
-}
-
-img.shot{
   display:block;
   width:100%;
-  max-width: 680px;
-  margin: 1.5rem auto 0.5rem auto;
-  border-radius: 6px;
-  border: 1px solid rgba(255,255,255,0.08);
+  max-width:680px;
+  margin:1.5rem auto 0.75rem auto;
+  border-radius:6px;
+  border:1px solid rgba(255,255,255,0.08);
   filter: brightness(0.92) contrast(0.95);
 }
 
-img.shot-admin{
-  max-width: 620px; /* slightly quieter */
+/* Caption directly after an image */
+article img + .muted{
+  display:block;
+  text-align:center;
+  opacity:0.75;
+  font-style:italic;
+  font-size:0.75rem;
+  margin-bottom:2rem;
 }
 
+/* Optional: smaller admin shot */
+img.shot-admin{
+  max-width: 620px;
+}
 
 /* Tag bar */
 .tagbar{
@@ -197,6 +191,8 @@ img.shot-admin{
 }
 
 .tag{
+  appearance:none;
+  font-family:inherit;
   background: rgba(255,255,255,0.06);
   border: 1px solid rgba(255,255,255,0.08);
   color: var(--muted);
@@ -219,7 +215,7 @@ img.shot-admin{
   border-color: rgba(255,255,255,0.22);
 }
 
-/* Post list (if you already added these earlier, keep one copy) */
+/* Post cards */
 .post-card{
   padding: 1.25rem 0;
   border-top: 1px solid rgba(255,255,255,0.08);
@@ -237,11 +233,11 @@ img.shot-admin{
 }
 
 .post-title a{
-  text-decoration: none;
+  text-decoration:none;
 }
 
 .post-title a:hover{
-  text-decoration: underline;
+  text-decoration:underline;
 }
 
 .post-meta{
@@ -255,7 +251,7 @@ img.shot-admin{
 }
 
 .post-readmore{
-  text-decoration: none;
+  text-decoration:none;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-size: 0.75rem;
@@ -274,45 +270,33 @@ img.shot-admin{
   opacity: 0.85;
 }
 
+/* Breadcrumbs */
 .breadcrumb{
   margin: 0 0 1.25rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  align-items: center;
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
+  display:flex;
+  flex-wrap:wrap;
+  gap:0.35rem;
+  align-items:center;
+  font-size:0.78rem;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--muted);
 }
 
 .breadcrumb a{
-  color: var(--muted);
-  text-decoration: none;
+  color:var(--muted);
+  text-decoration:none;
 }
 
 .breadcrumb a:hover{
-  color: var(--fg);
+  color:var(--fg);
 }
 
 .crumb-sep{
-  opacity: 0.55;
+  opacity:0.55;
 }
 
 .crumb-current{
-  color: var(--muted);
-  opacity: 0.9;
-}
-
-
-.nav a:hover{ color:var(--fg); }
-
-.site-main{ position:relative; z-index:1; padding: 2.5rem 0 3rem; }
-
-h1,h2,h3{ font-weight:400; letter-spacing:0.02em; }
-a{ color:var(--fg); }
-.muted{ color:var(--muted); opacity:0.8; }
-
-@media (prefers-reduced-motion: reduce){
-  .glow{ animation:none; }
+  color:var(--muted);
+  opacity:0.9;
 }
