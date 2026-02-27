@@ -46,7 +46,7 @@ If you’re new here, the best entry points are usually the Thinking posts.
 ---
 
 
-## Latest Thinking
+<h2>Latest Thinking</h2>
 
 {% assign latest_thinking = site.categories.Thinking | sort: "date" | reverse | slice: 0,3 %}
 
