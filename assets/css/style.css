@@ -136,6 +136,23 @@ body{
   color: var(--fg);
 }
 
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  padding: .5rem .75rem;
+  z-index: 9999;
+}
+
 article img{
   display: block;
   max-width: 680px;
