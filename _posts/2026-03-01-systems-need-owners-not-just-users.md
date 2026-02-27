@@ -1,8 +1,11 @@
 ---
 layout: default
 title: Systems Need Owners, Not Just Users
+date: 2026-03-01
+categories: [Thinking]
 tags: [systems, governance, delivery]
 excerpt: "Systems degrade when everyone uses them but no one owns them. Without clear accountability, definitions drift, exceptions multiply, and trust quietly erodes."
+permalink: /thinking/systems-need-owners-not-just-users/
 ---
 
 Many organisational systems have plenty of users.
