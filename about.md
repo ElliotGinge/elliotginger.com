@@ -8,14 +8,76 @@ permalink: /about/
 
 I work on systems where clarity, reliability, and trust matter.
 
-My focus is on aligning people, process, and data so organisations can make better decisions and deliver change without unnecessary friction. That often means simplifying reporting, improving ownership, and introducing automation in a way teams can understand and rely on.
+---
 
-I’m particularly interested in work that sits between strategy and execution — translating intent into systems that hold up under real operational pressure.
+## What I Do
 
-I optimise for:
-- clear ownership and accountability
-- decision-focused reporting
-- sustainable automation
-- change that teams actually adopt
+I align people, process, and data so organisations can make better decisions and deliver change without unnecessary friction.
 
-This site captures examples of that work, along with notes on what I’ve learned along the way.
+In practice, that often means simplifying reporting, strengthening ownership, and introducing automation in a way teams can understand — and rely on.
+
+---
+
+## Where I Work Best
+
+I’m most interested in work that sits between strategy and execution.
+
+The gap is usually not intent.
+
+It’s translation: turning decisions into systems that hold up under real operational pressure.
+
+---
+
+## What I Optimise For
+
+- **Clear ownership and accountability**  
+- **Decision-focused reporting**  
+- **Sustainable automation**  
+- **Change that teams actually adopt**  
+
+---
+
+## This Site
+
+This site captures examples of that work, along with short notes on what I’ve learned along the way.
+
+If you’re new here, the best entry points are usually the Thinking posts.
+
+---
+
+## Start Here
+
+<div style="height:2rem"></div>
+
+## Latest Thinking
+
+{% assign latest_thinking = site.categories.Thinking | sort: "date" | reverse | slice: 0,3 %}
+
+{% if latest_thinking.size > 0 %}
+  {% for post in latest_thinking %}
+    <article class="post-card">
+      <h3 class="post-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+
+      <div class="post-meta muted">
+        {{ post.date | date: "%-d %b %Y" }}
+      </div>
+
+      {% if post.excerpt %}
+        <p class="post-excerpt">
+          {{ post.excerpt | strip_html }}
+        </p>
+      {% endif %}
+
+      <a class="post-readmore muted" href="{{ post.url }}">Read →</a>
+    </article>
+
+    {% unless forloop.last %}
+      <div style="height:1.75rem"></div>
+    {% endunless %}
+  {% endfor %}
+
+  <div style="height:1rem"></div>
+  <a class="muted" href="/thinking/">View all Thinking posts →</a>
+{% endif %}
