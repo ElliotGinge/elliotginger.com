@@ -1,6 +1,6 @@
-<nav class="nav">
-  <a href="/work/">Work</a>
-  <a href="/thinking/">Thinking</a>
-  <a href="/about/">About</a>
-  <a href="/contact/">Contact</a>
+<nav class="nav" aria-label="Primary navigation">
+  <a href="/work/" {% if page.url == "/work/" or page.url contains "/work/" %}aria-current="page"{% endif %}>Work</a>
+  <a href="/thinking/" {% if page.url == "/thinking/" or page.url contains "/thinking/" %}aria-current="page"{% endif %}>Thinking</a>
+  <a href="/about/" {% if page.url == "/about/" %}aria-current="page"{% endif %}>About</a>
+  <a href="/contact/" {% if page.url == "/contact/" %}aria-current="page"{% endif %}>Contact</a>
 </nav>
