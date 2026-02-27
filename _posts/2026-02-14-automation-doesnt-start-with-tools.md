@@ -2,51 +2,67 @@
 layout: default
 title: Automation Doesn’t Start With Tools
 tags: [automation, systems, delivery]
+excerpt: "Automation fails when it begins with procurement instead of process clarity. Before software, there must be visibility, ownership, and agreement on what should — and shouldn’t — be automated."
 ---
 
 Automation is often treated as a tooling problem.
 
-Someone sees repetition, delay, or manual effort and immediately asks:
+Someone spots repetition, delay, or manual effort and immediately asks:
+
 *What software can we buy to fix this?*
 
-That instinct usually skips the most important step.
+That instinct skips the most important step.
 
-## The real starting point
+---
 
-Before automation, there needs to be clarity:
-- What is actually happening?
-- What decisions are being made?
-- What varies, and what doesn’t?
+## The Real Starting Point
 
-Without that understanding, automation doesn’t remove friction — it hides it.
+Before automation, there must be clarity:
+
+- What is actually happening?  
+- What decisions are being made?  
+- What varies — and what doesn’t?  
+
+Without that understanding, automation doesn’t remove friction.
+
+It hides it.
 
 You don’t get faster processes.  
 You get faster confusion.
 
-## Why tooling-first automation fails
+---
+
+## Why Tooling-First Automation Fails
 
 When automation leads the conversation:
-- edge cases are discovered too late
-- ownership becomes unclear
-- exceptions multiply
-- manual work still exists, just harder to see
 
-The system may look “automated”, but it isn’t controlled.
+- Edge cases are discovered too late  
+- Ownership becomes unclear  
+- Exceptions multiply  
+- Manual work still exists — just harder to see  
 
-This is how organisations end up with brittle workflows that no one fully understands, yet everyone relies on.
+The system may look automated.
 
-## A better sequence
+But it isn’t controlled.
 
-The most effective automation I’ve seen follows a quieter order:
+This is how organisations end up with brittle workflows that no one fully understands — yet everyone relies on.
 
-1. Make the process visible
-2. Decide what *should* be consistent
-3. Agree what still needs judgement
-4. Automate only what’s genuinely stable
+---
+
+## A Better Sequence
+
+The most effective automation follows a quieter order:
+
+1. Make the process visible  
+2. Decide what *should* be consistent  
+3. Agree what still requires judgement  
+4. Automate only what is genuinely stable  
 
 At that point, tooling becomes an implementation detail — not the strategy.
 
-## Automation as an outcome, not a goal
+---
+
+## Automation as an Outcome, Not a Goal
 
 Good automation feels boring.
 
