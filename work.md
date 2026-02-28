@@ -24,6 +24,20 @@ The case studies below explore how those issues were addressed in practice, thro
 
 <div class="posts-preview">
 
+<article class="post-card">
+  <h3 class="post-title">
+    <a href="/work/when-metrics-mean-different-things/">When Metrics Mean Different Things</a>
+  </h3>
+
+  <p class="post-excerpt">
+    Restoring decision velocity by aligning conflicting definitions and rebuilding trust in reporting.
+  </p>
+
+  <a class="post-readmore muted" href="/work/when-metrics-mean-different-things/">View case study →</a>
+</article>
+
+<div style="height:1.75rem"></div>
+
   <article class="post-card">
     <h3 class="post-title">
       <a href="/work/systems-and-reporting-alignment/">Systems & Reporting Alignment</a>
