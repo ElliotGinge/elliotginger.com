@@ -16,10 +16,12 @@ Case Study
 
 In a growing operational environment, multiple teams were reporting on the same metrics — but using subtly different definitions.
 
-Each team’s logic made sense in isolation. Each report was technically correct within its own context. Yet leadership discussions regularly stalled while numbers were reconciled rather than acted upon.
+Each team’s logic made sense in isolation. Each report was technically correct within its own context. Yet leadership discussions increasingly stalled while numbers were reconciled rather than acted upon.
+
+Over time, decision-making slowed — and in some cases ground to a halt — not because information was missing, but because shared meaning was.
 
 The issue wasn’t data availability.  
-It was shared meaning.
+It was alignment.
 
 ## The Problem
 
