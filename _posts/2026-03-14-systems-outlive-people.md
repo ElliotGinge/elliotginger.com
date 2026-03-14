@@ -11,7 +11,7 @@ image: /assets/images/systems-outlive-people.png
 
 <img src="{{ '/assets/images/systems-outlive-people.png' | relative_url }}" 
      alt="Fossilised circuit board embedded in stone with glowing data lines"
-     style="max-width:900px; width:100%; display:block; margin:auto;">
+     style="width:100%; max-height:450px; object-fit:cover;">
 
 # Systems Outlive People
 
