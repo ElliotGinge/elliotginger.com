@@ -6,7 +6,7 @@ categories: [Thinking]
 tags: [systems, organisations, data, architecture]
 excerpt: "Every system becomes a fossil record of the decisions that shaped it. Long after the people who built it have moved on, the system quietly preserves their assumptions, compromises, and priorities."
 permalink: /thinking/systems-outlive-people/
-image: /assets/images/systems-outlive-people.jpg
+image: /assets/images/systems-outlive-people.png
 ---
 
 ![Fossilised circuit board embedded in stone with glowing data lines](/assets/images/systems-outlive-people.jpg)
