@@ -9,7 +9,7 @@ permalink: /thinking/systems-outlive-people/
 image: /assets/images/systems-outlive-people.png
 ---
 
-![Fossilised circuit board embedded in stone with glowing data lines](/assets/images/systems-outlive-people.jpg)
+![Fossilised circuit board embedded in stone with glowing data lines](/assets/images/systems-outlive-people.png)
 
 # Systems Outlive People
 
