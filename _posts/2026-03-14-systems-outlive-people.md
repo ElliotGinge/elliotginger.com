@@ -8,17 +8,17 @@ excerpt: "Every system becomes a fossil record of the decisions that shaped it. 
 permalink: /thinking/systems-outlive-people/
 ---
 
-<div style="text-align:center; margin-bottom: 1.5rem;">
+# Systems Outlive People
+
+<div class="post-hero">
   <img 
     src="{{ '/assets/images/systems-outlive-people.png' | relative_url }}" 
     alt="Fossilised circuit board embedded in stone with glowing data lines"
-    style="max-width:850px; width:100%; border-radius:6px;">
+    style="max-width:720px; width:100%; border-radius:6px;">
   <p style="font-size:0.9em; color:#777; margin-top:6px;">
     Every system carries the imprint of the people who built it.
   </p>
 </div>
-
-# Systems Outlive People
 
 Walk into any organisation and open one of its systems.
 
