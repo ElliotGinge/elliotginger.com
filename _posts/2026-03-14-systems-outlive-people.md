@@ -65,7 +65,9 @@ Where there are duplicate fields, there was once disagreement.
 Where there are workarounds, there was once urgency.  
 Where there are complex rules, there was once risk.
 
-Systems are not just tools. They are archives.
+<blockquote class="pull-quote">
+  Systems are not just tools. They are archives.
+</blockquote>
 
 ## The Archaeology of Systems
 
