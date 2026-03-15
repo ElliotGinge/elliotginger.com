@@ -72,7 +72,7 @@ Smaller systems built to explore ideas around automation, integration, and pract
 
 <div class="posts-preview">
 
-<div style="height:1.75rem"></div>
+  <div style="height:1.75rem"></div>
 
   <article class="post-card">
     <h3 class="post-title">
@@ -82,6 +82,18 @@ Smaller systems built to explore ideas around automation, integration, and pract
       A small, personal build exploring how simple systems can remove friction in everyday situations.
     </p>
     <a class="post-readmore muted" href="/work/ginger-arms-ordering-system/">View case study →</a>
+  </article>
+
+  <div style="height:1.75rem"></div>
+
+  <article class="post-card">
+    <h3 class="post-title">
+      <a href="/work/argus-personal-control-system/">ARGUS — A Personal Control System</a>
+    </h3>
+    <p class="post-excerpt">
+      Designing a personal automation control system that prioritises clarity, observability, and controlled integration over maximum automation.
+    </p>
+    <a class="post-readmore muted" href="/work/argus-personal-control-system/">View case study →</a>
   </article>
 
 </div>
