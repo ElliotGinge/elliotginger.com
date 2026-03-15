@@ -16,7 +16,12 @@ I design clarity in systems — aligning people, process, and data so decisions 
 
 <div style="height:1rem"></div>
 
+Much of my work sits where reporting, operations, and technology meet.  
 I turn fragmented reporting, manual processes, and unclear ownership into coherent systems teams can trust.
+
+<div style="height:2rem"></div>
+
+This site is where I share the thinking behind that work — along with practical examples of how systems and reporting can be improved in the real world.
 
 <div style="height:2rem"></div>
 
@@ -25,10 +30,6 @@ I turn fragmented reporting, manual processes, and unclear ownership into cohere
 - **Work** — outcome-focused case studies showing how systems and reporting were improved in practice  
 - **Thinking** — short notes on analytics, automation, governance, and change that sticks  
 - **About** — how I work, what I optimise for, and the trade-offs I care about  
-
-<div style="height:2rem"></div>
-
-## Start Here
 
 <div style="height:2.5rem"></div>
 
@@ -72,5 +73,5 @@ I turn fragmented reporting, manual processes, and unclear ownership into cohere
 <div style="height:2rem"></div>
 
 <span class="muted">
-This is a living body of work. New case studies and notes are added regularly.
+This is a living body of work. New case studies and notes are added over time.
 </span>
