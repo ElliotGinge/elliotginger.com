@@ -8,13 +8,15 @@ permalink: /about/
 
 I work on systems where clarity, reliability, and trust matter.
 
+In my role as a Business Systems Analyst, much of that work sits at the intersection of operations, data, and technology.
+
 ---
 
 ## What I Do
 
 I align people, process, and data so organisations can make better decisions and deliver change without unnecessary friction.
 
-In practice, that often means simplifying reporting, strengthening ownership, and introducing automation in a way teams can understand — and rely on.
+In practice, that often means simplifying reporting, clarifying ownership, and introducing automation in ways teams can understand — and rely on.
 
 ---
 
@@ -39,14 +41,14 @@ It’s translation: turning decisions into systems that hold up under real opera
 
 ## This Site
 
-This site captures examples of that work, along with short notes on what I’ve learned along the way.
+This site captures examples of that work, along with short notes on systems, analytics, automation, and organisational change.
 
-If you’re new here, the best entry points are usually the Thinking posts.
+If you're new here, the best place to start is usually the Thinking posts.
 
 ---
 
 
-<h2>Latest Thinking</h2>
+## Latest Thinking
 
 {% assign latest_thinking = site.categories.Thinking | sort: "date" | reverse | slice: 0,3 %}
 
