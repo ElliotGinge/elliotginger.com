@@ -25,8 +25,6 @@ This site is where I share the thinking behind that work, along with practical e
 
 <hr>
 
-<div style="height:2rem"></div>
-
 ## What you’ll find here
 
 - **Work** — outcome-focused case studies showing how systems and reporting were improved in practice  
@@ -34,8 +32,6 @@ This site is where I share the thinking behind that work, along with practical e
 - **About** — how I work, what I optimise for, and the trade-offs I care about  
 
 <hr>
-
-<div style="height:2.5rem"></div>
 
 ## Selected Work
 
@@ -76,8 +72,6 @@ A few examples of systems work and practical improvements delivered in real envi
 <a class="muted" href="/work/">View all work →</a>
 
 <hr>
-
-<div style="height:2rem"></div>
 
 ## Latest Thinking
 
