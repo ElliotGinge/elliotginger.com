@@ -9,10 +9,22 @@ permalink: /thinking/
 Short notes on systems, analytics, automation, governance, and change that sticks.
 
 <span class="muted">
-Technology doesn’t create clarity. Structure does.
+These ideas come from real work, practical friction, and the patterns that show up when organisations try to improve how they operate.
+</span>
+
+<div style="height:0.75rem"></div>
+
+<span class="muted" style="font-style:italic;">
+Technology doesn’t create clarity on its own. Structure does.
 </span>
 
 <div style="height:1.25rem"></div>
+
+<span class="muted">
+Start with the latest posts below, or use the tags to explore a particular theme.
+</span>
+
+<div style="height:1.5rem"></div>
 
 {% assign thinking_posts = site.categories.Thinking | sort: "date" | reverse %}
 
