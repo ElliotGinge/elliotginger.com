@@ -6,17 +6,21 @@ permalink: /work/
 
 # Work
 
-I design systems that hold up in practice; aligning people, process, and data so organisations can make better decisions and execute with confidence.
+I design systems that hold up in practice — aligning people, process, and data so organisations can make better decisions and execute with confidence.
 
 ---
 
-## What This Work Focuses On
+## How This Work Approaches Systems
 
 Most systems don’t fail because of technology.
 
-They fail because alignment, ownership, or clarity break down under pressure.
+They fail when alignment, ownership, or clarity break down under pressure.
 
-The case studies below explore how those issues were addressed in practice, through clearer definitions, better reporting design, and automation introduced with control rather than disruption.
+The case studies below explore how those issues were addressed in practice — through clearer definitions, stronger reporting design, and automation introduced with control rather than disruption.
+
+<div style="height:0.5rem"></div>
+
+The examples below illustrate how these ideas were applied in real situations.
 
 ---
 
