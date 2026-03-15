@@ -24,7 +24,9 @@ The examples below illustrate how these ideas were applied in real situations.
 
 ---
 
-## Case Studies
+## Operational Systems
+
+Examples of systems and reporting improvements implemented in organisational environments.
 
 <div class="posts-preview">
 
@@ -32,11 +34,9 @@ The examples below illustrate how these ideas were applied in real situations.
   <h3 class="post-title">
     <a href="/work/when-metrics-mean-different-things/">When Metrics Mean Different Things</a>
   </h3>
-
   <p class="post-excerpt">
     Restoring decision velocity by aligning conflicting definitions and rebuilding trust in reporting.
   </p>
-
   <a class="post-readmore muted" href="/work/when-metrics-mean-different-things/">View case study →</a>
 </article>
 
@@ -46,11 +46,9 @@ The examples below illustrate how these ideas were applied in real situations.
     <h3 class="post-title">
       <a href="/work/systems-and-reporting-alignment/">Systems & Reporting Alignment</a>
     </h3>
-
     <p class="post-excerpt">
       Establishing shared definitions and ownership to create trusted, decision-ready reporting.
     </p>
-
     <a class="post-readmore muted" href="/work/systems-and-reporting-alignment/">View case study →</a>
   </article>
 
@@ -60,29 +58,34 @@ The examples below illustrate how these ideas were applied in real situations.
     <h3 class="post-title">
       <a href="/work/automation-with-control/">Automation with Control</a>
     </h3>
-
     <p class="post-excerpt">
       Reducing manual effort through automation while maintaining visibility, ownership, and trust.
     </p>
-
     <a class="post-readmore muted" href="/work/automation-with-control/">View case study →</a>
   </article>
 
-  <div style="height:1.75rem"></div>
+</div>
+
+## Personal Builds
+
+Smaller systems built to explore ideas around automation, integration, and practical problem solving.
+
+<div class="posts-preview">
+
+<div style="height:1.75rem"></div>
 
   <article class="post-card">
     <h3 class="post-title">
       <a href="/work/ginger-arms-ordering-system/">The Ginger Arms Ordering System</a>
     </h3>
-
     <p class="post-excerpt">
       A small, personal build exploring how simple systems can remove friction in everyday situations.
     </p>
-
     <a class="post-readmore muted" href="/work/ginger-arms-ordering-system/">View case study →</a>
   </article>
 
 </div>
+
 
 ---
 
