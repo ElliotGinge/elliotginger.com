@@ -33,6 +33,46 @@ This site is where I share the thinking behind that work — along with practica
 
 <div style="height:2.5rem"></div>
 
+## Selected Work
+
+A few examples of systems work and practical improvements delivered in real environments.
+
+<div class="posts-preview">
+
+<article class="post-card">
+  <h3 class="post-title">
+    <a href="/work/when-metrics-mean-different-things/">When Metrics Mean Different Things</a>
+  </h3>
+
+  <p class="post-excerpt">
+    Restoring decision velocity by aligning conflicting definitions and rebuilding trust in reporting.
+  </p>
+
+  <a class="post-readmore muted" href="/work/when-metrics-mean-different-things/">View case study →</a>
+</article>
+
+<div style="height:1.75rem"></div>
+
+<article class="post-card">
+  <h3 class="post-title">
+    <a href="/work/automation-with-control/">Automation with Control</a>
+  </h3>
+
+  <p class="post-excerpt">
+    Reducing manual operational effort through controlled automation while maintaining visibility and trust.
+  </p>
+
+  <a class="post-readmore muted" href="/work/automation-with-control/">View case study →</a>
+</article>
+
+</div>
+
+<div style="height:0.75rem"></div>
+
+<a class="muted" href="/work/">View all work →</a>
+
+<div style="height:2rem"></div>
+
 ## Latest Thinking
 
 {% assign latest_thinking = site.categories.Thinking | sort: "date" | reverse | slice: 0,3 %}
