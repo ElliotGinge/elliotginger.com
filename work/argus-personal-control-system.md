@@ -2,8 +2,6 @@
 layout: default
 title: ARGUS — A Personal Control System
 permalink: /work/argus-personal-control-system/
-categories: [Work]
-tags: [automation, systems, dashboards, home-assistant]
 ---
 
 # ARGUS — A Personal Control System
