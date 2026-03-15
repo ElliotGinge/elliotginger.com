@@ -88,7 +88,7 @@ Smaller systems built to explore ideas around automation, integration, and pract
 
   <article class="post-card">
     <h3 class="post-title">
-      <a href="/work/argus-personal-control-system/">ARGUS — A Personal Control System</a>
+      <a href="/work/argus-personal-control-system/">ARGUS - A Personal Control System</a>
     </h3>
     <p class="post-excerpt">
       Designing a personal automation control system that prioritises clarity, observability, and controlled integration over maximum automation.
