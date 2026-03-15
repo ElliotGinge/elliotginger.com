@@ -12,7 +12,7 @@ Systems • Data • Automation
 
 <div style="height:2rem"></div>
 
-I design clarity in systems — aligning people, process, and data so decisions become easier and delivery becomes faster.
+I design clarity in systems; aligning people, process, and data so decisions become easier and delivery becomes faster.
 
 <div style="height:1rem"></div>
 
@@ -21,7 +21,7 @@ I turn fragmented reporting, manual processes, and unclear ownership into cohere
 
 <div style="height:2rem"></div>
 
-This site is where I share the thinking behind that work — along with practical examples of how systems and reporting can be improved in the real world.
+This site is where I share the thinking behind that work, along with practical examples of how systems and reporting can be improved in the real world.
 
 <hr>
 
