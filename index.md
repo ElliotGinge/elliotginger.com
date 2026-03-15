@@ -23,6 +23,8 @@ I turn fragmented reporting, manual processes, and unclear ownership into cohere
 
 This site is where I share the thinking behind that work — along with practical examples of how systems and reporting can be improved in the real world.
 
+<hr>
+
 <div style="height:2rem"></div>
 
 ## What you’ll find here
@@ -30,6 +32,8 @@ This site is where I share the thinking behind that work — along with practica
 - **Work** — outcome-focused case studies showing how systems and reporting were improved in practice  
 - **Thinking** — short notes on analytics, automation, governance, and change that sticks  
 - **About** — how I work, what I optimise for, and the trade-offs I care about  
+
+<hr>
 
 <div style="height:2.5rem"></div>
 
@@ -70,6 +74,8 @@ A few examples of systems work and practical improvements delivered in real envi
 <div style="height:0.75rem"></div>
 
 <a class="muted" href="/work/">View all work →</a>
+
+<hr>
 
 <div style="height:2rem"></div>
 
