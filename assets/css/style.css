@@ -141,6 +141,20 @@ article p{
   margin: 1rem 0 1.15rem 0;
 }
 
+article h1{
+  margin: 0 0 0.5rem 0;
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+}
+
+article > .muted:first-of-type{
+  display: block;
+  margin-bottom: 1.25rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+}
+
 article h2{
   margin-top: 3rem;
   margin-bottom: 0.75rem;
@@ -157,6 +171,16 @@ blockquote{
   padding-left: 1rem;
   border-left: 2px solid rgba(255,255,255,0.08);
   color: rgba(234,234,234,0.85);
+  font-style: italic;
+}
+
+.pull-quote{
+  margin: 2rem 0;
+  padding: 0.25rem 0 0.25rem 1rem;
+  border-left: 3px solid rgba(255,255,255,0.16);
+  color: rgba(234,234,234,0.92);
+  font-size: 1.2rem;
+  line-height: 1.5;
   font-style: italic;
 }
 
@@ -218,8 +242,10 @@ article li{
 article img{
   display:block;
   width:100%;
-  max-width:680px;
-  margin:1.5rem auto 0.75rem auto;
+  max-width:640px;
+  max-height:300px;
+  object-fit:cover;
+  margin:1rem auto 0.5rem auto;
   border-radius:6px;
   border:1px solid rgba(255,255,255,0.08);
   filter: brightness(0.92) contrast(0.95);
@@ -229,10 +255,10 @@ article img{
 article img + .muted{
   display:block;
   text-align:center;
-  opacity:0.75;
+  opacity:0.68;
   font-style:italic;
-  font-size:0.75rem;
-  margin-bottom:2rem;
+  font-size:0.74rem;
+  margin-bottom:1.5rem;
 }
 
 /* Optional: smaller admin shot */
