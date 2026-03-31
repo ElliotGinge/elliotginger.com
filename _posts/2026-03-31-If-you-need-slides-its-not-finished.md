@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "If You Need Slides to Explain Your Dashboard, It’s Not Finished"
-date: 2026-04-01
+date: 2026-03-31
 categories: [Thinking]
 tags: [reporting, dashboards, data, decision-making, systems]
 excerpt: "You present the dashboard. Then you open PowerPoint to explain it. That’s not a presentation problem, it’s a design problem."
