@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "If You Need Slides to Explain Your Dashboard, It’s Not Finished"
 date: 2026-04-01
 categories: thinking
