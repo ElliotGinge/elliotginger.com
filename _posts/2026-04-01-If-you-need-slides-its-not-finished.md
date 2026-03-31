@@ -4,7 +4,7 @@ title: "If You Need Slides to Explain Your Dashboard, It’s Not Finished"
 date: 2026-04-01
 categories: [Thinking]
 tags: [reporting, dashboards, data, decision-making, systems]
-excerpt: "You present the dashboard. Then you open PowerPoint to explain it. That’s not a presentation problem—it’s a design problem."
+excerpt: "You present the dashboard. Then you open PowerPoint to explain it. That’s not a presentation problem, it’s a design problem."
 permalink: /thinking/If-you-need-slides-its-not-finished/
 ---
 
@@ -31,7 +31,7 @@ It happens everywhere:
 - The numbers are trusted  
 - Then comes the explanation  
 
-A second layer gets added—usually in slides, sometimes just spoken.
+A second layer gets added, usually in slides, sometimes just spoken.
 
 So now you don’t have:
 - One source of truth  
@@ -104,9 +104,9 @@ This isn’t just about extra work.
 
 It introduces:
 
-- **Interpretation dependency** — decisions rely on who presents  
-- **Context loss** — the story disappears after the meeting  
-- **Inconsistent decisions** — the same data leads to different outcomes  
+- **Interpretation dependency** - decisions rely on who presents  
+- **Context loss** - the story disappears after the meeting  
+- **Inconsistent decisions** - the same data leads to different outcomes  
 
 The system stops being the decision-maker.  
 The presenter becomes the system.
@@ -140,7 +140,7 @@ If a visual doesn’t support a decision, it’s noise.
 If you feel the need to “talk over” the dashboard, it’s not done yet.
 
 **Make action obvious**  
-Good reporting doesn’t just inform—it directs attention.
+Good reporting doesn’t just inform, it directs attention.
 
 ---
 
