@@ -54,8 +54,8 @@ And over time, the meaning drifts.
 A service team is reviewing performance.
 
 The dashboard shows:
-- Total open jobs  
-- Jobs by status  
+- Total open cases
+- Cases by status
 - Average completion time  
 - A breakdown by region  
 
