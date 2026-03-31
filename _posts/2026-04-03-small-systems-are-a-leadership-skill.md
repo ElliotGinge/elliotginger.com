@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Small Systems Are a Leadership Skill
-date: 2026-03-30
+date: 2026-04-03
 categories: [Thinking]
 tags: [systems, leadership, delivery]
 excerpt: "Leadership isn’t only visible in large programmes and budgets. The ability to design and maintain small, stable systems close to real work is often the clearer test of operational maturity."
