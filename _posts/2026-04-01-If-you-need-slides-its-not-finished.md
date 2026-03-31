@@ -67,8 +67,8 @@ So the presenter steps in.
 They explain:
 - A spike in reactive work over the past two weeks  
 - A backlog building in one specific region  
-- Two engineers off, reducing capacity  
-- And that most delays are coming from a specific job type  
+- Two decision makers off, reducing capacity  
+- And that most delays are coming from a specific scenario  
 
 None of that is *visible* in the dashboard.
 
@@ -91,8 +91,7 @@ But leaders are asking:
 
 > “What does this mean, and what do we do about it?”
 
-If your dashboard doesn’t answer that clearly,  
-someone will step in and fill the gap.
+If your dashboard doesn’t answer that clearly, someone will step in and fill the gap.
 
 That gap is where PowerPoint lives.
 
