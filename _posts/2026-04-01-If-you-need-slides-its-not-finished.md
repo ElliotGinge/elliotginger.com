@@ -7,6 +7,11 @@ tags: [reporting, dashboards, data, decision-making, systems]
 excerpt: "You present the dashboard. Then you open PowerPoint to explain it. That’s not a presentation problem, it’s a design problem."
 permalink: /thinking/If-you-need-slides-its-not-finished/
 ---
+![Dashboard with annotations](/assets/images/dashboard-annotations.png)
+
+*When the dashboard isn’t clear, the explanation moves elsewhere.*
+
+---
 
 You present the dashboard.  
 Then you open PowerPoint to explain it.  
