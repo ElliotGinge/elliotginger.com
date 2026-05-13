@@ -2,7 +2,7 @@
 layout: default
 title: "Your Business Already Has Automation — It’s Called Bob"
 date: 2026-05-13
-categories: [systems, operations, automation]
+categories: [thinking]
 tags: [automation, business systems, operations, process improvement, data, leadership]
 excerpt: "Most businesses do not realise how much of their operation depends on undocumented human processes until the person holding it together goes on holiday."
 image: /assets/images/posts/bob-automation-header.png
