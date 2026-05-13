@@ -1,14 +1,15 @@
 ---
 layout: default
-title: "Your Business Already Has Automation — It’s Called Bob"
+title: "Your Business Already Has Automation, They're Called Bob"
 date: 2026-05-13
-categories: [thinking]
+categories: [Thinking]
 tags: [automation, business systems, operations, process improvement, data, leadership]
 excerpt: "Most businesses do not realise how much of their operation depends on undocumented human processes until the person holding it together goes on holiday."
 image: /assets/images/posts/bob-automation-header.png
+permalink: /thinking/your-business-has-automation/
 ---
 
-# Your Business Already Has Automation — It’s Called Bob
+# Your Business Already Has Automation, They're Called Bob
 
 Every company has an undocumented API named Bob.
 
