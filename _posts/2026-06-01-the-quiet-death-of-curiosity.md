@@ -21,11 +21,11 @@ No meeting invite.
 
 No email informing you that your sense of wonder has officially expired.
 
-Most of the time, it simply fades away.
+Most of the time, it simply fades away...
 
-Quietly.
+Quietly...
 
-Gradually.
+Gradually...
 
 Almost unnoticed.
 
@@ -207,7 +207,7 @@ The good news is that curiosity can be rediscovered.
 
 It starts with a question.
 
-Why?
+**Why?**
 
 Why are we doing this?
 
