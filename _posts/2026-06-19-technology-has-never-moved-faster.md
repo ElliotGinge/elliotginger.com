@@ -85,43 +85,7 @@ Sometimes lovingly crafted.
 Sometimes terrifying.
 Usually named something like:
 ```text
-FINAL_REPORT_v7_UPDATED_USE_THIS_ONE.xlsx
-
----
-layout: post
-title: "Technology Has Never Moved Faster. Humans Haven't Changed At All"
-date: 2026-06-18
-categories: [technology, leadership, people]
-tags: [technology, leadership, ai, change management, business systems, trust, culture]
-excerpt: "Technology evolves at breathtaking speed, but the people using it remain gloriously, frustratingly human. The real challenge of innovation has never been technology — it's trust."
-image: /assets/images/posts/technology-humans-header.png
----
-
-# Technology Has Never Moved Faster. Humans Haven't Changed At All
-
-...
-
----
-
-## Familiarity Beats Functionality
-
-Email didn't replace meetings.
-
-Instant messaging didn't kill email.
-
-The paperless office somehow still has three printers per floor.
-
-And despite decades of technological progress, one of the most powerful tools in business remains the humble spreadsheet.
-
-Sometimes lovingly crafted.
-
-Sometimes terrifying.
-
-Usually named something like:
-
-~~~text
-FINAL_REPORT_v7_UPDATED_USE_THIS_ONE.xlsx
-~~~
+FINAL_REPORT_v7_UPDATED_USE_THIS_ONE.
 
 We've all seen it.
 
