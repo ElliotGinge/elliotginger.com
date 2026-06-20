@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Technology Has Never Moved Faster. Humans Haven't Changed At All"
-date: 2026-06-18
+date: 2026-06-19
 categories: [thinking]
 tags: [technology, leadership, ai, change management, business systems, trust, culture]
 excerpt: "Technology evolves at breathtaking speed, but the people using it remain gloriously, frustratingly human. The real challenge of innovation has never been technology — it's trust."
