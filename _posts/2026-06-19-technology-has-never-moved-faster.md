@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Technology Has Never Moved Faster. Humans Haven't Changed At All"
 date: 2026-06-19
 categories: [thinking]
