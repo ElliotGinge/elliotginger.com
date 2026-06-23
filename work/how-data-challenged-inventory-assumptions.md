@@ -1,5 +1,5 @@
 ---
-layout: deault
+layout: default
 title: "How Data Challenged £100,000 of Inventory Assumptions"
 excerpt: "A case study on building an inventory intelligence model that identified over £100,000 of potential stock optimisation opportunities while improving visibility and decision-making."
 image: /assets/images/posts/inventory-intelligence-header.png
