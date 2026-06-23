@@ -58,9 +58,7 @@ Everyone agreed it was an improvement.
 
 Six months later, one person was still printing reports.
 
-They'd highlight rows with a pen.Make notes in the margins.  
-
-Then type the information back into Excel.  
+They'd highlight rows with a pen, they'd make notes in the margins then type the information back into Excel.  
 
 At first, I couldn't understand it.
 
@@ -72,7 +70,7 @@ It wasn't about efficiency.
 
 It was about trust.
 
-That printed report and that yellow highlighter were familiar.
+That printed report and that faded yellow highlighter were familiar.
 
 The new system hadn't earned their confidence yet.
 
