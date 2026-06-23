@@ -42,29 +42,42 @@ Examples of systems and reporting improvements implemented in organisational env
 
 <div style="height:1.75rem"></div>
 
-  <article class="post-card">
-    <h3 class="post-title">
-      <a href="/work/systems-and-reporting-alignment/">Systems & Reporting Alignment</a>
-    </h3>
-    <p class="post-excerpt">
-      Establishing shared definitions and ownership to create trusted, decision-ready reporting.
-    </p>
-    <a class="post-readmore muted" href="/work/systems-and-reporting-alignment/">View case study →</a>
-  </article>
+<article class="post-card">
+  <h3 class="post-title">
+    <a href="/work/systems-and-reporting-alignment/">Systems & Reporting Alignment</a>
+  </h3>
+  <p class="post-excerpt">
+    Establishing shared definitions and ownership to create trusted, decision-ready reporting.
+  </p>
+  <a class="post-readmore muted" href="/work/systems-and-reporting-alignment/">View case study →</a>
+</article>
 
-  <div style="height:1.75rem"></div>
+<div style="height:1.75rem"></div>
 
-  <article class="post-card">
-    <h3 class="post-title">
-      <a href="/work/automation-with-control/">Automation with Control</a>
-    </h3>
-    <p class="post-excerpt">
-      Reducing manual effort through automation while maintaining visibility, ownership, and trust.
-    </p>
-    <a class="post-readmore muted" href="/work/automation-with-control/">View case study →</a>
-  </article>
+<article class="post-card">
+  <h3 class="post-title">
+    <a href="/work/how-data-challenged-inventory-assumptions/">How Data Challenged £100,000 of Inventory Assumptions</a>
+  </h3>
+  <p class="post-excerpt">
+    Building an inventory intelligence model that transformed stock planning from instinct-led decisions into a repeatable, data-informed framework.
+  </p>
+  <a class="post-readmore muted" href="/work/how-data-challenged-inventory-assumptions/">View case study →</a>
+</article>
+
+<div style="height:1.75rem"></div>
+
+<article class="post-card">
+  <h3 class="post-title">
+    <a href="/work/automation-with-control/">Automation with Control</a>
+  </h3>
+  <p class="post-excerpt">
+    Reducing manual effort through automation while maintaining visibility, ownership, and trust.
+  </p>
+  <a class="post-readmore muted" href="/work/automation-with-control/">View case study →</a>
+</article>
 
 </div>
+
 
 ## Personal Builds
 
