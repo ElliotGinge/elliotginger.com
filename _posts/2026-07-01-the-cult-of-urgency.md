@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "The Cult of Urgency"
+date: 2026-07-01
 permalink: /articles/the-cult-of-urgency/
 
 categories: thinking
