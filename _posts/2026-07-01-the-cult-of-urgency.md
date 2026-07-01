@@ -3,18 +3,13 @@ layout: default
 title: "The Cult of Urgency"
 date: 2026-07-01
 permalink: /thinking/the-cult-of-urgency/
-
 categories: [thinking]
-
 tags: [Leadership, Workplace Culture, Productivity, Time Management, Decision Making, Organisational Behaviour]
-
 excerpt: "Somewhere along the way, we've convinced ourselves that everything is urgent. The result? Constant interruptions, manufactured stress, and organisations that mistake panic for progress."
-
 image: /assets/images/articles/the-cult-of-urgency.webp
 image_alt: "A desk overwhelmed with urgent emails, notifications and meetings while one person calmly works through the noise."
 
 ---
-
 # The Cult of Urgency
 
 *How everything became an emergency—and why that's making us slower.*
@@ -34,7 +29,6 @@ Membership is free.
 The only requirement is that everything must be treated as though civilisation depends on it.
 
 ---
-
 Every workplace has its rituals.
 
 The red exclamation mark.
@@ -50,7 +44,6 @@ Then, just to complete the set, someone walks over to your desk to ask if you've
 By this point, you've spent more time talking about the work than it would have taken to actually do it.
 
 ---
-
 Urgency has become contagious.
 
 One person panics.
@@ -81,7 +74,6 @@ The fascinating part?
 At no point did they consider that you might have been... working.
 
 ---
-
 Here's a fun experiment.
 
 The next time someone tells you something is urgent, ask a simple question.
@@ -97,7 +89,6 @@ Not "How quickly can I do it?"
 It's amazing how many "urgent" requests suddenly discover they have until next Tuesday.
 
 ---
-
 Real urgency exists.
 
 Hospitals deal with urgency.
@@ -113,7 +104,6 @@ We're trying to locate version **Final_v7_UseThisOne_ACTUALFINAL(2).xlsx** befor
 Perspective is a wonderful thing.
 
 ---
-
 The irony is that organisations obsessed with urgency often become slower.
 
 When everything jumps to the front of the queue...
@@ -131,7 +121,6 @@ Everyone becomes busy.
 Very little becomes finished.
 
 ---
-
 There's another cost.
 
 When every request is labelled urgent, the genuinely important ones lose their signal.
@@ -141,7 +130,6 @@ It's the organisational equivalent of the boy who cried wolf.
 After the fifteenth "ASAP", people quietly stop believing you.
 
 ---
-
 My personal favourite is the meeting that ends with:
 
 > "We really need to move quickly on this."
@@ -153,7 +141,6 @@ Followed immediately by:
 Remarkable.
 
 ---
-
 The most impressive people I've worked with have rarely been the ones shouting the loudest.
 
 They weren't sprinting through corridors clutching laptops like they were carrying the nuclear launch codes.
@@ -173,7 +160,6 @@ Speed and panic are not the same thing.
 In fact, they're usually opposites.
 
 ---
-
 Perhaps we've mistaken motion for progress.
 
 An overflowing calendar looks productive.
@@ -191,7 +177,6 @@ Sometimes the most productive thing you can do isn't responding faster.
 It's protecting enough uninterrupted time to solve the problem properly.
 
 ---
-
 The next time you're tempted to write **"URGENT"** in the subject line, pause for a moment.
 
 Ask yourself one question.
