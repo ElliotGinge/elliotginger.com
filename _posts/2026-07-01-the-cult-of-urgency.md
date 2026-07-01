@@ -3,10 +3,7 @@ layout: default
 title: "The Cult of Urgency"
 permalink: /articles/the-cult-of-urgency/
 
-categories:
-  - Leadership
-  - Workplace
-  - Productivity
+categories: thinking
 
 tags:
   - Leadership
