@@ -12,7 +12,7 @@ permalink: /thinking/the-cult-of-urgency/
 ---
 # The Cult of Urgency
 
-*How everything became an emergency—and why that's making us slower.*
+*How everything became an emergency, and why that's making us slower.*
 
 Somewhere, right now, someone is marking an email as **High Importance** because they need an answer before lunch.
 
