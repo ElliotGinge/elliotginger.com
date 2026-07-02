@@ -6,7 +6,6 @@ categories: [Thinking]
 tags: [Leadership, Workplace Culture, Productivity, Time Management, Decision Making, Organisational Behaviour]
 excerpt: "Somewhere along the way, we've convinced ourselves that everything is urgent. The result? Constant interruptions, manufactured stress, and organisations that mistake panic for progress."
 image: /assets/images/posts/the-cult-of-urgency.png
-image_alt: "A desk overwhelmed with urgent emails, notifications and meetings while one person calmly works through the noise."
 permalink: /thinking/the-cult-of-urgency/
 
 ---
