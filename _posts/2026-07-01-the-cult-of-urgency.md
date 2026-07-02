@@ -187,3 +187,5 @@ Is this genuinely urgent...
 Because those are very different things.
 
 And one of them has quietly become a religion.
+
+The good news? Religions can be questioned.
