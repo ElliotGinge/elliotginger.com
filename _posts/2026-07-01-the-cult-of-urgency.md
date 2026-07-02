@@ -2,7 +2,7 @@
 layout: default
 title: "The Cult of Urgency"
 date: 2026-07-01
-categories: [thinking]
+categories: [Thinking]
 tags: [Leadership, Workplace Culture, Productivity, Time Management, Decision Making, Organisational Behaviour]
 excerpt: "Somewhere along the way, we've convinced ourselves that everything is urgent. The result? Constant interruptions, manufactured stress, and organisations that mistake panic for progress."
 image: /assets/images/posts/the-cult-of-urgency.png
