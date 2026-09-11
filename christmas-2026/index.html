@@ -11,13 +11,13 @@ sitemap: false
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Christmas 2026 | Move Aside, Santa</title>
+  <title>Christmas 2026</title>
 
-  <!-- Keep this page out of search engines -->
   <meta name="robots" content="noindex, nofollow">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
     rel="stylesheet"
@@ -25,15 +25,15 @@ sitemap: false
 
   <style>
     :root {
-      --green-deep: #081c15;
-      --green: #12372a;
-      --green-light: #245443;
+      --green-deep: #06140f;
+      --green: #0d281e;
+      --green-soft: #15392c;
       --gold: #d4af37;
-      --gold-soft: #ead991;
+      --gold-light: #eadb93;
       --cream: #f8f1df;
-      --cream-dark: #e8dcc0;
-      --red: #7f1d1d;
-      --text: #fffaf0;
+      --cream-muted: #d9d0bb;
+      --red: #7b2023;
+      --text-muted: rgba(248,241,223,0.72);
     }
 
     * {
@@ -47,14 +47,16 @@ sitemap: false
     }
 
     body {
-      background:
-        radial-gradient(circle at top, rgba(212,175,55,0.08), transparent 35%),
-        linear-gradient(180deg, #071711 0%, var(--green-deep) 35%, #06140f 100%);
-      color: var(--text);
+      min-height: 100vh;
+      color: var(--cream);
       font-family: "Montserrat", sans-serif;
       font-weight: 300;
-      min-height: 100vh;
       line-height: 1.7;
+
+      background:
+        radial-gradient(circle at 50% -10%, rgba(212,175,55,0.13), transparent 32%),
+        radial-gradient(circle at 5% 40%, rgba(30,80,60,0.2), transparent 35%),
+        linear-gradient(180deg, #071912 0%, var(--green-deep) 40%, #04100c 100%);
     }
 
     body::before {
@@ -62,68 +64,77 @@ sitemap: false
       position: fixed;
       inset: 0;
       pointer-events: none;
-      opacity: 0.22;
+      opacity: 0.20;
+
       background-image:
-        radial-gradient(circle at 15% 20%, #fff 0 1px, transparent 1.5px),
-        radial-gradient(circle at 72% 12%, #fff 0 1px, transparent 1.5px),
-        radial-gradient(circle at 90% 35%, #fff 0 1px, transparent 1.5px),
-        radial-gradient(circle at 35% 55%, #fff 0 1px, transparent 1.5px),
-        radial-gradient(circle at 80% 75%, #fff 0 1px, transparent 1.5px);
-      background-size: 170px 170px;
+        radial-gradient(circle at 10% 20%, #fff 0 1px, transparent 1.5px),
+        radial-gradient(circle at 30% 65%, #fff 0 1px, transparent 1.5px),
+        radial-gradient(circle at 55% 20%, #fff 0 1px, transparent 1.5px),
+        radial-gradient(circle at 75% 78%, #fff 0 1px, transparent 1.5px),
+        radial-gradient(circle at 90% 35%, #fff 0 1px, transparent 1.5px);
+
+      background-size: 190px 190px;
+    }
+
+    a {
+      color: inherit;
     }
 
     .page {
-      width: min(920px, calc(100% - 32px));
+      width: min(980px, calc(100% - 30px));
       margin: 0 auto;
-      padding: 60px 0 80px;
       position: relative;
+      padding-bottom: 90px;
     }
 
     .hero {
       text-align: center;
-      padding: 70px 20px 65px;
+      padding: 90px 20px 55px;
     }
 
-    .eyebrow {
-      color: var(--gold-soft);
+    .hero-kicker {
+      color: var(--gold-light);
       text-transform: uppercase;
-      letter-spacing: 0.4em;
+      letter-spacing: 0.42em;
       font-size: 0.72rem;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
     }
 
     h1 {
       font-family: "Cormorant Garamond", serif;
-      font-size: clamp(4rem, 11vw, 7.5rem);
-      font-weight: 500;
-      line-height: 0.85;
       color: var(--cream);
-      text-shadow: 0 4px 30px rgba(0,0,0,0.5);
+      font-weight: 500;
+      line-height: 0.92;
+      font-size: clamp(4.8rem, 13vw, 8rem);
+      text-shadow: 0 6px 35px rgba(0,0,0,0.45);
     }
 
     .year {
       display: block;
-      color: var(--gold);
-      font-size: 0.42em;
-      letter-spacing: 0.18em;
       margin-top: 22px;
+      color: var(--gold);
+      letter-spacing: 0.24em;
+      font-size: 0.25em;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
     }
 
     .tagline {
+      max-width: 650px;
+      margin: 32px auto 0;
       font-family: "Cormorant Garamond", serif;
       font-style: italic;
-      color: var(--cream-dark);
+      color: var(--cream-muted);
       font-size: 1.45rem;
-      margin: 35px auto 0;
     }
 
     .ornament {
       display: flex;
-      justify-content: center;
       align-items: center;
-      gap: 16px;
+      justify-content: center;
+      gap: 15px;
+      margin: 32px auto;
       color: var(--gold);
-      margin: 32px 0;
     }
 
     .ornament::before,
@@ -138,20 +149,94 @@ sitemap: false
       background: linear-gradient(90deg, var(--gold), transparent);
     }
 
-    .menu-card {
+    .day-nav {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+
+      padding: 14px 10px;
+
+      background: rgba(5,18,13,0.90);
+      border-top: 1px solid rgba(212,175,55,0.15);
+      border-bottom: 1px solid rgba(212,175,55,0.18);
+
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+
+    .day-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 0.62rem;
+      font-weight: 500;
+
+      padding: 9px 13px;
+
+      border: 1px solid rgba(212,175,55,0.25);
+      border-radius: 30px;
+
+      color: var(--gold-light);
+
+      transition:
+        background 0.2s ease,
+        border 0.2s ease,
+        transform 0.2s ease;
+    }
+
+    .day-nav a:hover {
+      background: rgba(212,175,55,0.09);
+      border-color: rgba(212,175,55,0.55);
+      transform: translateY(-1px);
+    }
+
+    .day {
+      scroll-margin-top: 85px;
+
+      margin: 55px 0;
+
       background:
         linear-gradient(
           145deg,
-          rgba(255,255,255,0.055),
+          rgba(255,255,255,0.05),
           rgba(255,255,255,0.015)
         );
-      border: 1px solid rgba(212,175,55,0.25);
-      border-radius: 6px;
+
+      border: 1px solid rgba(212,175,55,0.22);
+      border-radius: 8px;
+
       padding: clamp(32px, 7vw, 64px);
+
       box-shadow:
-        0 30px 70px rgba(0,0,0,0.35),
-        inset 0 1px rgba(255,255,255,0.06);
-      backdrop-filter: blur(6px);
+        0 30px 70px rgba(0,0,0,0.30),
+        inset 0 1px rgba(255,255,255,0.04);
+    }
+
+    .day-header {
+      text-align: center;
+      padding-bottom: 35px;
+    }
+
+    .day-date {
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.32em;
+      font-size: 0.66rem;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    .day-title {
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 500;
+      color: var(--cream);
+      font-size: clamp(3rem, 8vw, 4.7rem);
+      line-height: 1;
     }
 
     .menu-section {
@@ -160,126 +245,181 @@ sitemap: false
     }
 
     .menu-section + .menu-section {
-      border-top: 1px solid rgba(212,175,55,0.18);
+      border-top: 1px solid rgba(212,175,55,0.15);
     }
 
     .section-kicker {
-      color: var(--gold);
       text-transform: uppercase;
-      letter-spacing: 0.32em;
-      font-size: 0.67rem;
-      margin-bottom: 8px;
+      letter-spacing: 0.3em;
+      font-size: 0.64rem;
       font-weight: 500;
+      color: var(--gold);
+      margin-bottom: 8px;
     }
 
-    h2 {
+    .section-title {
       font-family: "Cormorant Garamond", serif;
-      color: var(--cream);
-      font-size: clamp(2.2rem, 6vw, 3.2rem);
+      font-size: clamp(2rem, 5vw, 3rem);
       font-weight: 500;
       line-height: 1.1;
-      margin-bottom: 28px;
+      color: var(--cream);
+      margin-bottom: 25px;
     }
 
     .dish {
-      margin: 25px auto;
-      max-width: 650px;
+      margin: 24px auto;
+      max-width: 700px;
     }
 
     .dish-name {
       font-family: "Cormorant Garamond", serif;
       font-size: 1.55rem;
+      line-height: 1.2;
       font-weight: 600;
       color: var(--cream);
-      margin-bottom: 3px;
     }
 
     .dish-description {
-      color: rgba(248,241,223,0.72);
-      font-size: 0.88rem;
-      line-height: 1.65;
+      margin-top: 5px;
+      color: var(--text-muted);
+      font-size: 0.87rem;
+      line-height: 1.7;
+    }
+
+    .menu-lines {
+      margin-top: 14px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      line-height: 1.85;
     }
 
     .divider {
+      margin: 25px 0;
       color: var(--gold);
-      opacity: 0.7;
-      font-size: 0.8rem;
-      margin: 20px 0;
-      letter-spacing: 0.6em;
+      opacity: 0.75;
+      letter-spacing: 0.45em;
+      font-size: 0.7rem;
     }
 
-    .cocktail {
-      margin-top: 35px;
-      background: rgba(127,29,29,0.18);
-      border: 1px solid rgba(212,175,55,0.3);
-      padding: 34px 25px;
+    .feature-card {
       position: relative;
+      margin: 35px auto 10px;
+      max-width: 720px;
+      padding: 36px 30px;
+
+      background:
+        radial-gradient(circle at top, rgba(212,175,55,0.10), transparent 45%),
+        rgba(127,32,35,0.16);
+
+      border: 1px solid rgba(212,175,55,0.34);
+
+      box-shadow:
+        inset 0 0 30px rgba(212,175,55,0.025),
+        0 18px 35px rgba(0,0,0,0.18);
     }
 
-    .cocktail::before {
-      content: "★";
+    .feature-icon {
       position: absolute;
-      top: -13px;
+      top: -16px;
       left: 50%;
       transform: translateX(-50%);
+
+      min-width: 44px;
+      padding: 0 10px;
+
       background: var(--green-deep);
       color: var(--gold);
-      padding: 0 12px;
+
+      font-size: 1.15rem;
     }
 
-    .cocktail-name {
-      color: var(--gold-soft);
-      font-family: "Cormorant Garamond", serif;
-      font-size: 2.4rem;
-      font-weight: 600;
-    }
-
-    .cocktail-subtitle {
+    .feature-kicker {
       text-transform: uppercase;
-      letter-spacing: 0.2em;
-      font-size: 0.63rem;
-      color: rgba(255,255,255,0.55);
-      margin-bottom: 12px;
+      letter-spacing: 0.22em;
+      font-size: 0.6rem;
+      color: var(--gold);
+      margin-bottom: 5px;
+    }
+
+    .feature-name {
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 600;
+      color: var(--gold-light);
+      font-size: clamp(2.3rem, 7vw, 3.6rem);
+      line-height: 1;
+    }
+
+    .feature-description {
+      margin-top: 16px;
+      color: var(--cream-muted);
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+
+    .heritage {
+      background:
+        radial-gradient(circle at top, rgba(212,175,55,0.10), transparent 45%),
+        rgba(255,255,255,0.025);
+    }
+
+    .choice {
+      display: inline-block;
+      margin: 14px 0 3px;
+
+      color: var(--gold);
+      font-family: "Cormorant Garamond", serif;
+      font-style: italic;
+      font-size: 1.2rem;
     }
 
     .footer {
       text-align: center;
-      padding-top: 60px;
-      color: rgba(255,255,255,0.45);
-      font-size: 0.72rem;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
+      padding: 20px 20px 0;
+      color: rgba(255,255,255,0.42);
     }
 
     .footer-title {
       color: var(--gold);
       font-family: "Cormorant Garamond", serif;
-      text-transform: none;
-      letter-spacing: 0;
-      font-size: 1.5rem;
-      margin-bottom: 5px;
+      font-size: 1.6rem;
+      margin-bottom: 4px;
     }
 
-    @media (max-width: 600px) {
+    .footer-line {
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.62rem;
+    }
+
+    @media (max-width: 650px) {
       .page {
-        width: min(100% - 20px, 920px);
-        padding-top: 25px;
+        width: min(100% - 18px, 980px);
       }
 
       .hero {
-        padding: 45px 10px 40px;
+        padding: 60px 14px 40px;
       }
 
-      .menu-card {
-        padding: 28px 22px;
+      .tagline {
+        font-size: 1.25rem;
       }
 
-      .menu-section {
-        padding: 28px 0;
+      .day {
+        padding: 34px 20px;
+        margin: 35px 0;
       }
 
-      .eyebrow {
-        letter-spacing: 0.25em;
+      .day-nav {
+        gap: 6px;
+      }
+
+      .day-nav a {
+        font-size: 0.55rem;
+        padding: 8px 10px;
+      }
+
+      .feature-card {
+        padding: 34px 20px;
       }
     }
   </style>
@@ -287,67 +427,95 @@ sitemap: false
 
 <body>
 
+  <header class="hero">
+
+    <div class="hero-kicker">
+      Christmas
+    </div>
+
+    <h1>
+      Christmas
+      <span class="year">2026</span>
+    </h1>
+
+    <div class="ornament">✦</div>
+
+    <p class="tagline">
+      Four days of festive excess, questionable portion control
+      and absolutely no January behaviour.
+    </p>
+
+  </header>
+
+
+  <nav class="day-nav">
+    <a href="#christmas-eve">Christmas Eve</a>
+    <a href="#christmas-day">Christmas Day</a>
+    <a href="#boxing-day">Boxing Day</a>
+    <a href="#one-for-the-road">One for the Road</a>
+  </nav>
+
+
   <main class="page">
 
-    <header class="hero">
-      <div class="eyebrow">Operation</div>
 
-      <h1>
-        Move Aside,<br>
-        Santa
-        <span class="year">CHRISTMAS 2026</span>
-      </h1>
+    <!-- =========================================================
+         CHRISTMAS EVE
+         ========================================================= -->
 
-      <div class="ornament">✦</div>
+    <section class="day" id="christmas-eve">
 
-      <p class="tagline">
-        Eat. Drink. Be merry. Leave absolutely no room for Boxing Day.
-      </p>
-    </header>
-
-
-    <section class="menu-card">
-
-      <!-- =====================================================
-           CHRISTMAS MENU
-           Replace/edit the dishes below with the final menu.
-           ===================================================== -->
+      <header class="day-header">
+        <div class="day-date">24 December</div>
+        <h2 class="day-title">Christmas Eve</h2>
+      </header>
 
 
       <section class="menu-section">
-        <div class="section-kicker">To Begin</div>
-        <h2>Christmas Morning</h2>
+
+        <div class="section-kicker">Welcome</div>
+        <h3 class="section-title">Arrival</h3>
 
         <div class="dish">
-          <div class="dish-name">Christmas Morning</div>
-          <div class="dish-description">
-            Coffee, something suitably festive and the gradual realisation
-            that an unreasonable quantity of food is coming.
+          <div class="dish-name">English Sparkling Wine</div>
+        </div>
+
+        <div class="dish">
+          <div class="dish-name">
+            Burrata · Roasted Peppers · Artichokes · Olives
           </div>
         </div>
+
+        <div class="dish">
+          <div class="dish-name">
+            Focaccia · Extra Virgin Olive Oil
+          </div>
+        </div>
+
       </section>
 
 
       <section class="menu-section">
-        <div class="section-kicker">The Main Event</div>
-        <h2>Christmas Dinner</h2>
 
-        <!-- Replace these with the final agreed dishes -->
+        <div class="section-kicker">Christmas Eve Feast</div>
+        <h3 class="section-title">The First Supper</h3>
 
         <div class="dish">
-          <div class="dish-name">The Centrepiece</div>
+          <div class="dish-name">Porchetta</div>
           <div class="dish-description">
-            Your Christmas main goes here.
+            Slow-Roasted Pork Belly &amp; Loin<br>
+            Fennel · Rosemary · Sage · Garlic · Lemon<br>
+            Crisp Crackling
           </div>
         </div>
 
         <div class="divider">✦ ✦ ✦</div>
 
         <div class="dish">
-          <div class="dish-name">The Supporting Cast</div>
+          <div class="dish-name">Aubergine Parmigiana</div>
           <div class="dish-description">
-            Roast potatoes, vegetables, stuffing, sauces and all the other
-            things without which Christmas dinner becomes a disciplinary matter.
+            Roasted Aubergine · Tomato · Basil<br>
+            Mozzarella · Parmesan
           </div>
         </div>
 
@@ -355,64 +523,491 @@ sitemap: false
 
 
       <section class="menu-section">
-        <div class="section-kicker">Because Apparently We Have Room</div>
-        <h2>Dessert</h2>
+
+        <div class="section-kicker">For the Table</div>
+        <h3 class="section-title">Alongside</h3>
+
+        <div class="menu-lines">
+          Creamy Parmesan Polenta<br>
+          Roasted Fennel &amp; Red Onion<br>
+          Cavolo Nero · Garlic · Chilli · Lemon<br>
+          Apple, Fennel &amp; Rocket Salad<br>
+          Fresh Salsa Verde
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Dessert</div>
+        <h3 class="section-title">Something Sweet</h3>
 
         <div class="dish">
-          <div class="dish-name">Christmas Desserts</div>
+          <div class="dish-name">Lemon Posset</div>
           <div class="dish-description">
-            The final dessert selection goes here.
+            Raspberry · Homemade Shortbread · Candied Lemon
           </div>
         </div>
-      </section>
-
-
-      <section class="menu-section">
-        <div class="section-kicker">Round Two</div>
-        <h2>Later On</h2>
 
         <div class="dish">
-          <div class="dish-name">Christmas Evening</div>
           <div class="dish-description">
-            Leftovers, nibbles, cheese, snacks and whatever remains after
-            everybody has sworn they couldn't possibly eat another thing.
-          </div>
-        </div>
-      </section>
-
-
-      <section class="menu-section">
-        <div class="section-kicker">House Cocktail</div>
-        <h2>Something Stronger</h2>
-
-        <div class="cocktail">
-          <div class="cocktail-subtitle">The Official Christmas 2026 Cocktail</div>
-
-          <div class="cocktail-name">
-            Bad Santa
-          </div>
-
-          <div class="dish-description">
-            Festive. Questionable. Almost certainly responsible for
-            decisions made later in the evening.
+            Coffee · Chocolates · After-Dinner Drinks
           </div>
         </div>
 
       </section>
-
 
     </section>
 
 
+
+    <!-- =========================================================
+         CHRISTMAS DAY
+         ========================================================= -->
+
+    <section class="day" id="christmas-day">
+
+      <header class="day-header">
+        <div class="day-date">25 December</div>
+        <h2 class="day-title">Christmas Day</h2>
+      </header>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Christmas Morning</div>
+        <h3 class="section-title">A Gentle Beginning</h3>
+
+        <div class="menu-lines">
+          Warm Croissants &amp; Pain au Chocolat<br>
+          Smoked Salmon · Cream Cheese · Toasted Sourdough<br>
+          Fresh Fruit · Preserves<br>
+          Coffee · Tea · Fresh Orange Juice<br>
+          Buck’s Fizz
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">The Opening Ceremony</div>
+        <h3 class="section-title">Proceedings Begin</h3>
+
+        <div class="feature-card">
+
+          <div class="feature-icon">🍹</div>
+
+          <div class="feature-kicker">
+            Christmas 2026 Cocktail
+          </div>
+
+          <div class="feature-name">
+            Bad Santa
+          </div>
+
+          <div class="feature-description">
+            Aged Dark Rum · Cherry · Cranberry · Lime<br>
+            Spiced Ginger · Angostura · Orange
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Canapés</div>
+        <h3 class="section-title">Before Dinner</h3>
+
+        <div class="menu-lines">
+          Truffle &amp; Parmesan Gougères<br>
+          Smoked Haddock Croquettes · Lemon &amp; Dill Crème Fraîche<br>
+          Wild Mushroom &amp; Thyme Tartlets
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Christmas Dinner</div>
+        <h3 class="section-title">To Begin</h3>
+
+        <div class="dish">
+          <div class="dish-name">Seared Scallops</div>
+          <div class="dish-description">
+            Cauliflower Velouté · Brown Butter<br>
+            Toasted Hazelnut · Green Apple · Crisp Pancetta
+          </div>
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">The Main Event</div>
+        <h3 class="section-title">Christmas Dinner</h3>
+
+        <div class="dish">
+          <div class="dish-name">Beef Wellington</div>
+          <div class="dish-description">
+            Fillet of Beef · Mushroom Duxelles<br>
+            Dijon · Parma Ham · All-Butter Puff Pastry
+          </div>
+        </div>
+
+        <div class="divider">✦</div>
+
+        <div class="dish">
+          <div class="dish-name">Rolled Christmas Turkey</div>
+          <div class="dish-description">
+            Sage · Onion · Chestnut · Cranberry<br>
+            Sausage Stuffing · Smoked Streaky Bacon
+          </div>
+        </div>
+
+        <div class="divider">✦</div>
+
+        <div class="dish">
+          <div class="dish-name">Wild Mushroom &amp; Chestnut Wellington</div>
+          <div class="dish-description">
+            Porcini · Caramelised Shallot · Spinach<br>
+            Thyme · Madeira · All-Butter Puff Pastry
+          </div>
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">From the Christmas Kitchen</div>
+        <h3 class="section-title">For the Table</h3>
+
+        <div class="menu-lines">
+          Goose-Fat Roast Potatoes · Garlic · Rosemary<br>
+          Pommes Anna · Butter · Thyme<br>
+          Maple-Dijon Pigs in Blankets<br>
+          Honey, Orange &amp; Thyme Heritage Carrots<br>
+          Maple-Mustard Roast Parsnips<br>
+          Brussels Sprouts · Brown Butter · Chestnuts · Lemon<br>
+          Port, Apple &amp; Redcurrant Braised Red Cabbage<br>
+          Sage, Onion &amp; Chestnut Stuffing
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Sauces &amp; Accompaniments</div>
+        <h3 class="section-title">The Essentials</h3>
+
+        <div class="menu-lines">
+          Port &amp; Madeira Gravy<br>
+          Mushroom &amp; Madeira Jus<br>
+          Bread Sauce<br>
+          Cranberry &amp; Orange Sauce<br>
+          Horseradish Cream
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">The Intermission</div>
+        <h3 class="section-title">British Cheese</h3>
+
+        <div class="menu-lines">
+          Colston Bassett Stilton<br>
+          Montgomery’s Cheddar<br>
+          Tunworth<br>
+          Goat’s Cheese
+        </div>
+
+        <div class="dish">
+          <div class="dish-description">
+            Quince · Fig Chutney · Grapes · Figs<br>
+            Walnuts · Celery · Crackers
+          </div>
+        </div>
+
+        <div class="dish">
+          <div class="dish-name">Vintage Port</div>
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Dessert</div>
+        <h3 class="section-title">Christmas Tradition</h3>
+
+        <div class="feature-card heritage">
+
+          <div class="feature-icon">🔥</div>
+
+          <div class="feature-kicker">
+            The Original Family Recipe
+          </div>
+
+          <div class="feature-name">
+            Grandma Mabel’s Christmas Pudding
+          </div>
+
+          <div class="feature-description">
+            Brandy-Flambéed at the Table<br>
+            Vanilla Custard · Brandy Butter · Brandy Cream
+          </div>
+
+        </div>
+
+        <div class="choice">or</div>
+
+        <div class="dish">
+          <div class="dish-name">
+            Dark Chocolate &amp; Clementine Tart
+          </div>
+
+          <div class="dish-description">
+            Crème Fraîche · Candied Orange
+          </div>
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Later…</div>
+        <h3 class="section-title">As If That Wasn’t Enough</h3>
+
+        <div class="menu-lines">
+          Warm Mince Pies<br>
+          Chocolate Truffles<br>
+          Coffee<br>
+          Port · Brandy · Whisky
+        </div>
+
+      </section>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         BOXING DAY
+         ========================================================= -->
+
+    <section class="day" id="boxing-day">
+
+      <header class="day-header">
+        <div class="day-date">26 December</div>
+        <h2 class="day-title">Boxing Day</h2>
+      </header>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Boxing Day Brunch</div>
+        <h3 class="section-title">Eggs Benedict</h3>
+
+        <div class="dish">
+          <div class="dish-description">
+            Poached Eggs · English Muffin · Hollandaise
+          </div>
+        </div>
+
+        <div class="dish">
+          <div class="dish-name">Your Choice of</div>
+          <div class="dish-description">
+            Ham<br>
+            Smoked Salmon<br>
+            Mushroom &amp; Spinach
+          </div>
+        </div>
+
+        <div class="dish">
+          <div class="dish-name">Alongside</div>
+          <div class="dish-description">
+            Cumberland Sausages<br>
+            Crispy Hash Browns<br>
+            Roasted Tomatoes<br>
+            Garlic Mushrooms
+          </div>
+        </div>
+
+        <div class="dish">
+          <div class="dish-description">
+            Coffee · Fresh Orange Juice<br>
+            Bloody Marys
+          </div>
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">The Boxing Day Grazing Table</div>
+        <h3 class="section-title">Help Yourself</h3>
+
+        <div class="dish">
+          <div class="dish-description">
+            A constantly evolving collection of:
+          </div>
+        </div>
+
+        <div class="menu-lines">
+          Cold Turkey · Porchetta · Wellington<br>
+          British Cheeses<br>
+          Pork Pie<br>
+          Pickles · Piccalilli · Chutneys · Mustards<br>
+          Fresh Bread · Crackers
+        </div>
+
+        <div class="dish">
+          <div class="dish-description">
+            And whatever else survived Christmas Day…
+          </div>
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Boxing Day Supper</div>
+        <h3 class="section-title">The Boxing Day Pie</h3>
+
+        <div class="dish">
+          <div class="dish-name">Turkey Pie</div>
+          <div class="dish-description">
+            Turkey · Stuffing · Pigs in Blankets<br>
+            Leek · Chestnut · Tarragon<br>
+            Wholegrain Mustard · Cream · Gravy<br>
+            Golden Puff Pastry
+          </div>
+        </div>
+
+        <div class="divider">✦</div>
+
+        <div class="dish">
+          <div class="dish-name">
+            Wild Mushroom, Chestnut &amp; Leek Pie
+          </div>
+
+          <div class="dish-description">
+            Spinach · Tarragon · Mustard Cream<br>
+            Golden Puff Pastry
+          </div>
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">For the Table</div>
+        <h3 class="section-title">Alongside</h3>
+
+        <div class="menu-lines">
+          Crispy Smashed Roast Potatoes<br>
+          Braised Red Cabbage<br>
+          Garlic-Buttered Green Beans<br>
+          Christmas Gravy
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Help Yourself…</div>
+        <h3 class="section-title">Dessert</h3>
+
+        <div class="menu-lines">
+          Grandma Mabel’s Christmas Pudding<br>
+          Chocolate &amp; Clementine Tart<br>
+          Warm Mince Pies<br>
+          British Cheese<br>
+          Ice Cream
+        </div>
+
+      </section>
+
+    </section>
+
+
+
+    <!-- =========================================================
+         ONE FOR THE ROAD
+         ========================================================= -->
+
+    <section class="day" id="one-for-the-road">
+
+      <header class="day-header">
+        <div class="day-date">27 December</div>
+        <h2 class="day-title">One for the Road</h2>
+      </header>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">Farewell Brunch</div>
+        <h3 class="section-title">Brioche French Toast</h3>
+
+        <div class="dish">
+          <div class="dish-description">
+            Vanilla · Cinnamon · Orange<br>
+            Winter Berries · Crème Fraîche<br>
+            Warm Maple Syrup<br>
+            Crispy Maple Bacon
+          </div>
+        </div>
+
+      </section>
+
+
+      <section class="menu-section">
+
+        <div class="section-kicker">From the Kitchen</div>
+        <h3 class="section-title">One Last Time</h3>
+
+        <div class="menu-lines">
+          Fresh Pastries · Fruit · Yoghurt<br>
+          Toast · Preserves<br>
+          Cheese · Smoked Salmon<br>
+          Fresh Juice<br>
+          Lots of Coffee
+        </div>
+
+      </section>
+
+    </section>
+
+
+
     <footer class="footer">
+
+      <div class="ornament">✦</div>
+
       <div class="footer-title">
         Christmas 2026
       </div>
 
-      <div>
-        Eat • Drink • Be Merry
+      <div class="footer-line">
+        Eat · Drink · Be Merry
       </div>
+
     </footer>
+
 
   </main>
 
