@@ -6,7 +6,7 @@ permalink: /work/
 
 # Work
 
-I design systems that hold up in practice — aligning people, process, and data so organisations can make better decisions and execute with confidence.
+I design systems that hold up in practice - aligning people, process, and data so organisations can make better decisions and execute with confidence.
 
 ---
 
@@ -16,7 +16,7 @@ Most systems don’t fail because of technology.
 
 They fail when alignment, ownership, or clarity break down under pressure.
 
-The case studies below explore how those issues were addressed in practice — through clearer definitions, stronger reporting design, and automation introduced with control rather than disruption.
+The case studies below explore how those issues were addressed in practice - through clearer definitions, stronger reporting design, and automation introduced with control rather than disruption.
 
 <div style="height:0.5rem"></div>
 
