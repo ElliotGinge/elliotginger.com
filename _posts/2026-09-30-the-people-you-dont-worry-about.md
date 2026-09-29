@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The People You Don’t Worry About"
-date: 2026-09-03
+date: 2026-09-30
 categories: [Thinking]
 tags: [Leadership, Workplace Culture, People Management, Wellbeing, Burnout, Organisational Behaviour]
 excerpt: "Every workplace has people you don't worry about. They're capable, dependable and quietly get things done. But reliability has a strange side effect: sometimes, it makes people invisible."
