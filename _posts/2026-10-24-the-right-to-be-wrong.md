@@ -1,4 +1,3 @@
-
 ---
 layout: default
 title: "The Right to Be Wrong"
