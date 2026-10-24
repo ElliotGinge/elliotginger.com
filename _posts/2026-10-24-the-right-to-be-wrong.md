@@ -5,7 +5,7 @@ date: 2026-10-24
 categories: [Thinking]
 tags: [Leadership, Technology, Management, Personal Development, Self-Reflection, Workplace Culture]
 excerpt: "We expect ourselves to have the answers, anticipate the problems and make the right decisions. But what happens when the person least willing to forgive our mistakes is ourselves?"
-image: /assets/images/posts/the-right-to-be-wrong.png
+image: /assets/images/posts/the-right-to-be-wrong.PNG
 permalink: /thinking/the-right-to-be-wrong/
 ---
 
