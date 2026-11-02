@@ -5,7 +5,7 @@ date: 2026-11-02
 categories: [Thinking]
 tags: [smart home, IoT, cybersecurity, home automation, privacy, technology, Home Assistant]
 excerpt: "When did convenience become dependency, and what should we expect from the technology we let into our homes?"
-image: /assets/images/posts/your-smart-home-is-someone-elses-computer.png
+image: /assets/images/posts/your-smart-home-is-someone-elses-computer.PNG
 permalink: /thinking/your-smart-home-is-someone-elses-computer/
 ---
 
